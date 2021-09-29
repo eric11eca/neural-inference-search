@@ -4,34 +4,36 @@ from operator import itemgetter
 
 
 class State:
-    def __init__(self, inference_type=None,
-                 premise_prev="", premise_next="",
-                 terminate=None, state_list=None):
+    '''
+    inference_type: String -- paraphrase, commonsense, monotonicity, ...
+    premise_prev: String -- the previous premise
+    premise_curr: String -- the current premise
+    '''
+
+    def __init__(self, inference_type=None, premise_curr="", terminate=None, state_list=None):
         if not state_list:
             self.inference_type = inference_type
-            self.premise_prev = premise_prev
-            self.premise_next = premise_next
+            self.premise_curr = premise_curr
             self.terminate = terminate
         else:
             self.inference_type = state_list[0]
-            self.premise_prev = state_list[1]
-            self.premise_next = state_list[2]
-            self.terminate = state_list[3]
+            self.premise_curr = state_list[1]
+            self.terminate = state_list[2]
 
     def as_tuple(self):
         return (self.inference_type,
-                self.premise_prev,
-                self.premise_next,
+                self.premise_curr,
                 self.terminate)
 
     def as_list(self):
         return list(self.as_tuple())
 
     def copy(self):
-        return State(self.inference_type,
-                     self.premise_prev,
-                     self.premise_next,
-                     self.terminate)
+        return State(
+            self.inference_type,
+            self.premise_curr,
+            self.terminate
+        )
 
 
 class StateEnumerator:
@@ -41,112 +43,17 @@ class StateEnumerator:
 
     def __init__(self, state_space_parameters):
         # Limits
-        self.ssp = state_space_parameters
-        self.layer_limit = state_space_parameters.layer_limit
-
         self.output_states = state_space_parameters.output_states
 
     def enumerate_state(self, state, q_values):
-        '''Defines all state transitions, populates q_values where actions are valid
-
-        Legal Transitions:
-           conv         -> conv, pool                   (IF state.layer_depth < layer_limit)
-           conv         -> fc                           (If state.layer_depth < layer_limit)
-           conv         -> softmax, gap                 (Always)
-
-           pool          -> conv,                       (If state.layer_depth < layer_limit)
-           pool          -> fc,                         (If state.layer_depth < layer_limit)
-           pool          -> softmax, gap                (Always)
-
-           fc           -> fc                           (If state.layer_depth < layer_limit AND state.filter_depth < 3)
-           fc           -> softmax                      (Always)
-
-           gap          -> softmax                      (Always)
-
+        '''
+        Defines all state transitions, populates q_values where actions are valid
         Updates: q_values and returns q_values
         '''
         actions = []
 
-        if state.terminate == 0:
-
-            # If we are at the layer limit, we can only go to softmax
-            actions += [State(layer_type=state.layer_type,
-                              layer_depth=state.layer_depth + 1,
-                              filter_depth=state.filter_depth,
-                              filter_size=state.filter_size,
-                              stride=state.stride,
-                              image_size=state.image_size,
-                              fc_size=state.fc_size,
-                              terminate=1)]
-
-            if state.layer_depth < self.layer_limit:
-
-                # Conv states -- iterate through all possible depths, filter sizes, and strides
-                if (state.layer_type in ['start', 'conv', 'pool']):
-                    for depth in self.ssp.possible_conv_depths:
-                        for filt in self._possible_conv_sizes(state.image_size):
-                            actions += [State(layer_type='conv',
-                                              layer_depth=state.layer_depth + 1,
-                                              filter_depth=depth,
-                                              filter_size=filt,
-                                              stride=1,
-                                              image_size=state.image_size if self.ssp.conv_padding == 'SAME'
-                                              else self._calc_new_image_size(state.image_size, filt, 1),
-                                              fc_size=0,
-                                              terminate=0)]
-
-                # Global Average Pooling States
-                if (state.layer_type in ['start', 'conv', 'pool']):
-                    actions += [State(layer_type='gap',
-                                      layer_depth=state.layer_depth+1,
-                                      filter_depth=0,
-                                      filter_size=0,
-                                      stride=0,
-                                      image_size=1,
-                                      fc_size=0,
-                                      terminate=0)]
-
-                # pool states -- iterate through all possible filter sizes and strides
-                if (state.layer_type in ['conv'] or
-                    (state.layer_type == 'pool' and self.ssp.allow_consecutive_pooling) or
-                        (state.layer_type == 'start' and self.ssp.allow_initial_pooling)):
-                    for filt in self._possible_pool_sizes(state.image_size):
-                        for stride in self._possible_pool_strides(filt):
-                            actions += [State(layer_type='pool',
-                                              layer_depth=state.layer_depth + 1,
-                                              filter_depth=0,
-                                              filter_size=filt,
-                                              stride=stride,
-                                              image_size=self._calc_new_image_size(
-                                                  state.image_size, filt, stride),
-                                              fc_size=0,
-                                              terminate=0)]
-
-                # FC States -- iterate through all possible fc sizes
-                if (self.ssp.allow_fully_connected(state.image_size)
-                        and state.layer_type in ['start', 'conv', 'pool']):
-
-                    for fc_size in self._possible_fc_size(state):
-                        actions += [State(layer_type='fc',
-                                          layer_depth=state.layer_depth + 1,
-                                          filter_depth=0,
-                                          filter_size=0,
-                                          stride=0,
-                                          image_size=0,
-                                          fc_size=fc_size,
-                                          terminate=0)]
-
-                # FC -> FC States
-                if state.layer_type == 'fc' and state.filter_depth < self.ssp.max_fc - 1:
-                    for fc_size in self._possible_fc_size(state):
-                        actions += [State(layer_type='fc',
-                                          layer_depth=state.layer_depth + 1,
-                                          filter_depth=state.filter_depth + 1,
-                                          filter_size=0,
-                                          stride=0,
-                                          image_size=0,
-                                          fc_size=fc_size,
-                                          terminate=0)]
+        # TODO: API interface for the fine-tuned Language Model vertex probing (Bert)
+        # TODO: Define action space here, i.e. rerun the probing framework (Eric)
 
         # Add states to transition and q_value dictionary
         q_values[state.as_tuple()] = {'actions': [self.bucket_state_tuple(to_state.as_tuple()) for to_state in actions],
