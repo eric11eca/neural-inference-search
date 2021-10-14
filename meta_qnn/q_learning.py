@@ -95,8 +95,9 @@ class QLeanrer:
         '''
 
     def __init__(
-        self, epsilon, state_space_parameters,
-        state=None, qstore=None,
+        self, premise, hypothesis, epsilon, state_space_parameters,
+        state=None, qstore=None, replaydict=None, WeightInitializer=None,
+        device=None,
         replay_dictionary=pd.DataFrame(
             columns=[
                 'path', 'epsilon',
@@ -108,14 +109,28 @@ class QLeanrer:
 
         self.state_list = []
         self.state_space_parameters = state_space_parameters
+        self.enumerator = se.StateEnumerator(state_space_parameters)
+        self.state = se.State('start', premise, 0, self.state_list)
+        self.qstore = QValues()
+
+        if type(qstore) is not type(None):
+            self.qstore.laod_q_values(qstore)
+            self.replay_dictionary = pd.read_csv(replaydict, index_col=0)
+        else:
+            self.replay_dictionary = replay_dictionary
+
+        self.epsilon = epsilon
+        self.WeightInitializer = WeightInitializer
+        self.device = device
 
     def update_replay_database(self, new_replay_dic):
         self.replay_dictionary = new_replay_dic
 
-    def enerate_inference_path(self):
-        self._reset_new_walk()
+    def gnerate_inference_path(self, epsilon=None):
+        if epsilon != None:
+            self.epsilon = epsilon
+        self._reset_for_new_walk()
         state_list = self._run_agent()
-        state_list = self.stringutils.add_drop_out_states(state_list)
         path_string = self.stringutils.state_list_to_string(state_list)
 
         if path_string in self.replay_dictionary['path'].values:
@@ -126,6 +141,17 @@ class QLeanrer:
             rouge = self.replay_dictionary[
                 self.replay_dictionary['path'] == path_string]['rouge'].values[0]
 
+            self.replay_dictionary = self.replay_dictionary.append(
+                pd.DataFrame(
+                    [[path_string, bleu_best, sem_sim, rouge, self.epsilon]],
+                    columns=['path', 'bleu_best', 'sem_sim', 'rouge', 'epsilon']),
+                ignore_index=True)
+            self.count += 1
+            self.replay_dictionary.to_csv(os.path.join(
+                self.save_path, 'replayDict' + str(self.count) + '.csv'))
+            self.sample_replay_for_update()
+            self.qstore.save_to_csv(os.path.join(
+                self.save_path, 'qVal' + str(self.count) + '.csv'))
         else:
             bleu_best = -1.0
             sem_sim = -1.0
