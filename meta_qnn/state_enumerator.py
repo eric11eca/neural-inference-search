@@ -3,6 +3,32 @@ import numpy as np
 from operator import itemgetter
 
 
+class Action:
+    def __init__(self, inference_type=None):
+        if inference_type is None:
+            self.inference_type = "exact_align"
+        else:
+            self.inference_type = inference_type
+
+        self.curr_alignments = {}
+
+    def generate_alignments(self):
+        pass
+
+    def alignment_classification(self):
+        pass
+
+    def generate_next_state(self, premise_curr):
+        transition = self.curr_alignments[self.inference_type]
+        span_orig = transition[0]
+        span_next = transition[1]
+        new_state = State(
+            inference_type=self.inference_type,
+            premise_curr=premise_curr.replace(span_orig, span_next),
+            terminate=False)
+        return new_state
+
+
 class State:
     '''
     inference_type: String -- paraphrase, commonsense, monotonicity, ...
@@ -72,15 +98,7 @@ class StateEnumerator:
 
             returns: next state, not bucketed
         '''
-        if action.layer_type == 'pool' or \
-                (action.layer_type == 'conv' and self.ssp.conv_padding == 'VALID'):
-            new_image_size = self._calc_new_image_size(
-                start_state.image_size, action.filter_size, action.stride)
-        else:
-            new_image_size = start_state.image_size
-
-        to_state = action.copy()
-        to_state.image_size = new_image_size
+        to_state = action.generate_next_state(start_state.premise_curr)
         return to_state
 
     def bucket_state_tuple(self, state):
