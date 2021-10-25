@@ -69,6 +69,7 @@ class StateEnumerator:
 
     def __init__(self, state_space_parameters):
         # Limits
+        self.memory = {}
         self.output_states = state_space_parameters.output_states
 
     def enumerate_state(self, state, q_values):
@@ -82,15 +83,17 @@ class StateEnumerator:
         # TODO: Define action space here, i.e. rerun the probing framework (Eric)
 
         # Add states to transition and q_value dictionary
-        q_values[state.as_tuple()] = {'actions': [self.bucket_state_tuple(to_state.as_tuple()) for to_state in actions],
-                                      'utilities': [self.ssp.init_utility for i in range(len(actions))]}
+        q_values[state.as_tuple()] = {
+            'actions': [self.bucket_state_tuple(to_state.as_tuple()) for to_state in actions],
+            'utilities': [self.ssp.init_utility for i in range(len(actions))]}
         return q_values
 
     def transition_to_action(self, start_state, to_state):
-        action = to_state.copy()
-        if to_state.layer_type not in ['fc', 'gap']:
-            action.image_size = start_state.image_size
-        return action
+        if start_state.premise_curr + to_state.premise_curr in self.memory:
+            action = self.memory[start_state.premise_curr +
+                                 to_state.premise_curr]
+            return action
+        return Action()
 
     def state_action_transition(self, start_state, action):
         ''' start_state: Should be the actual start_state, not a bucketed state
@@ -99,6 +102,7 @@ class StateEnumerator:
             returns: next state, not bucketed
         '''
         to_state = action.generate_next_state(start_state.premise_curr)
+        self.memory[start_state+to_state] = action
         return to_state
 
     def bucket_state_tuple(self, state):
