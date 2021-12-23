@@ -1,0 +1,2802 @@
+[
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: a man",
+    "target": "a man , a woman , and two dogs",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: and two dogs",
+    "target": "a man , a woman , and two dogs",
+    "BLEU-4": 0.29411764705882354,
+    "ROUGEL": 0.42857142857142855
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: two dogs",
+    "target": "a man , a woman , and two dogs",
+    "BLEU-4": 0.2,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: a woman",
+    "target": "a man , a woman , and two dogs",
+    "BLEU-4": 0.1724137931034483,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: three dogs",
+    "target": "a man , a woman , and two dogs",
+    "BLEU-4": 0.0625,
+    "ROUGEL": 0.14285714285714285
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down the road",
+    "target": "down the road",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down",
+    "target": "down the road",
+    "BLEU-4": 0.03846153846153846,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down street",
+    "target": "down the road",
+    "BLEU-4": 0.060606060606060615,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down the street",
+    "target": "down the road",
+    "BLEU-4": 0.16216216216216217,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: downhill",
+    "target": "down the road",
+    "BLEU-4": 0.03333333333333333,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broke a screen today",
+    "target": "student broke a screen",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broke a screen",
+    "target": "student broke a screen",
+    "BLEU-4": 0.3333333333333333,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broken a screen today",
+    "target": "student broke a screen",
+    "BLEU-4": 0.20930232558139536,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: breaking a screen today",
+    "target": "student broke a screen",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broke a screen yesterday",
+    "target": "student broke a screen",
+    "BLEU-4": 0.2608695652173913,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: is doing a bicycle trick",
+    "target": "man doing a bicycle trick",
+    "BLEU-4": 0.41304347826086957,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: doing a bicycle trick",
+    "target": "man doing a bicycle trick",
+    "BLEU-4": 0.4418604651162791,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: a bicycle trick",
+    "target": "man doing a bicycle trick",
+    "BLEU-4": 0.35135135135135137,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: is doing a bike trick",
+    "target": "man doing a bicycle trick",
+    "BLEU-4": 0.27906976744186046,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: doing a bike trick",
+    "target": "man doing a bicycle trick",
+    "BLEU-4": 0.3,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding fishing poles",
+    "target": "holding fishing poles",
+    "BLEU-4": 0.4186046511627907,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding fish",
+    "target": "holding fishing poles",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: hold fishing poles",
+    "target": "holding fishing poles",
+    "BLEU-4": 0.3,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding three poles",
+    "target": "holding fishing poles",
+    "BLEU-4": 0.19512195121951223,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding fishermen poles",
+    "target": "holding fishing poles",
+    "BLEU-4": 0.26666666666666666,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: hanging from a rock",
+    "target": "a rock which is vertical and white",
+    "BLEU-4": 0.07317073170731705,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: a rock which is vertical and white",
+    "target": "a rock which is vertical and white",
+    "BLEU-4": 0.5535714285714286,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: hanging from a rock which is vertical",
+    "target": "a rock which is vertical and white",
+    "BLEU-4": 0.3559322033898305,
+    "ROUGEL": 0.7142857142857143
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: from a rock",
+    "target": "a rock which is vertical and white",
+    "BLEU-4": 0.0909090909090909,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: hung from a rock",
+    "target": "a rock which is vertical and white",
+    "BLEU-4": 0.07894736842105263,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black, red dress",
+    "target": "a black, red, white, and pink dress",
+    "BLEU-4": 0.3,
+    "ROUGEL": 0.5714285714285714
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black, red and pink dress",
+    "target": "a black, red, white, and pink dress",
+    "BLEU-4": 0.42857142857142855,
+    "ROUGEL": 0.8571428571428571
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black, white and pink dress",
+    "target": "a black, red, white, and pink dress",
+    "BLEU-4": 0.43137254901960786,
+    "ROUGEL": 0.8571428571428571
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black and white dress",
+    "target": "a black, red, white, and pink dress",
+    "BLEU-4": 0.26666666666666666,
+    "ROUGEL": 0.5714285714285714
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black and pink dress",
+    "target": "a black, red, white, and pink dress",
+    "BLEU-4": 0.36363636363636365,
+    "ROUGEL": 0.7142857142857143
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple",
+    "target": "a couple who have just got married",
+    "BLEU-4": 0.1616919172827717,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple walking down",
+    "target": "a couple who have just got married",
+    "BLEU-4": 0.1627906976744186,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: the couple",
+    "target": "a couple who have just got married",
+    "BLEU-4": 0.12500000000000003,
+    "ROUGEL": 0.14285714285714285
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple walk down",
+    "target": "a couple who have just got married",
+    "BLEU-4": 0.175,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple down",
+    "target": "a couple who have just got married",
+    "BLEU-4": 0.1714285714285714,
+    "ROUGEL": 0.2857142857142857
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: is feeding an animal",
+    "target": "is feeding",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: feeding an animal",
+    "target": "is feeding",
+    "BLEU-4": 0.1282051282051282,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: are feeding an animal",
+    "target": "is feeding",
+    "BLEU-4": 0.11627906976744189,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: feed an animal",
+    "target": "is feeding",
+    "BLEU-4": 0.05555555555555554,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: feeds an animal",
+    "target": "is feeding",
+    "BLEU-4": 0.054054054054054064,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: pacing tiredly",
+    "target": "pacing tiredly",
+    "BLEU-4": 0.3055555555555556,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: walking tiredly",
+    "target": "pacing tiredly",
+    "BLEU-4": 0.21621621621621626,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: is pacing tired",
+    "target": "pacing tiredly",
+    "BLEU-4": 0.24324324324324326,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: pacing tired",
+    "target": "pacing tiredly",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: walking tired",
+    "target": "pacing tiredly",
+    "BLEU-4": 0.1714285714285714,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: playing a grand piano",
+    "target": "a grand piano",
+    "BLEU-4": 0.23255813953488372,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: a grand piano",
+    "target": "a grand piano",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: is playing a grand piano",
+    "target": "a grand piano",
+    "BLEU-4": 0.21739130434782608,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: singing a grand piano",
+    "target": "a grand piano",
+    "BLEU-4": 0.23255813953488372,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: plays a grand piano",
+    "target": "a grand piano",
+    "BLEU-4": 0.24390243902439027,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a brown and white dog",
+    "target": "a brown and white dog",
+    "BLEU-4": 0.4186046511627907,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a black and white dog",
+    "target": "a brown and white dog",
+    "BLEU-4": 0.2558139534883721,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a brown or white dog",
+    "target": "a brown and white dog",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a white and brown dog",
+    "target": "a brown and white dog",
+    "BLEU-4": 0.2558139534883721,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a green and white dog",
+    "target": "a brown and white dog",
+    "BLEU-4": 0.27906976744186046,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: riding a bicycle",
+    "target": "is riding a bicycle in a parking lot",
+    "BLEU-4": 0.3684210526315789,
+    "ROUGEL": 0.375
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding a bicycle",
+    "target": "is riding a bicycle in a parking lot",
+    "BLEU-4": 0.3902439024390244,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: in a parking lot",
+    "target": "is riding a bicycle in a parking lot",
+    "BLEU-4": 0.3684210526315789,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: rides a bicycle",
+    "target": "is riding a bicycle in a parking lot",
+    "BLEU-4": 0.21621621621621626,
+    "ROUGEL": 0.375
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: riding a bike",
+    "target": "is riding a bicycle in a parking lot",
+    "BLEU-4": 0.2571428571428571,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: with a pink interior",
+    "target": "the grotto with a pink interior",
+    "BLEU-4": 0.42857142857142855,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: four middle eastern children",
+    "target": "the grotto with a pink interior",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: the grotto",
+    "target": "the grotto with a pink interior",
+    "BLEU-4": 0.21874999999999997,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: a pink interior",
+    "target": "the grotto with a pink interior",
+    "BLEU-4": 0.35135135135135137,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: a grotto",
+    "target": "the grotto with a pink interior",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 0.16666666666666666
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: four middle eastern children",
+    "target": "four middle eastern children",
+    "BLEU-4": 0.5,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: three girls",
+    "target": "four middle eastern children",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: six middle eastern children",
+    "target": "four middle eastern children",
+    "BLEU-4": 0.42857142857142855,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: five girls",
+    "target": "four middle eastern children",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: four middle eastern kids",
+    "target": "four middle eastern children",
+    "BLEU-4": 0.3695652173913043,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: walking on a sunny day",
+    "target": "Orange juice is being drunk",
+    "BLEU-4": 0.02272727272727273,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: is being drunk by a man",
+    "target": "Orange juice is being drunk",
+    "BLEU-4": 0.26666666666666666,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: walking",
+    "target": "Orange juice is being drunk",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: in a sunny day",
+    "target": "Orange juice is being drunk",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: drinking on a sunny day",
+    "target": "Orange juice is being drunk",
+    "BLEU-4": 0.022222222222222227,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: two girls",
+    "target": "two girls with dogs",
+    "BLEU-4": 0.1935483870967742,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: three girls",
+    "target": "two girls with dogs",
+    "BLEU-4": 0.0909090909090909,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase alignes to: two girls",
+    "target": "two girls with dogs",
+    "BLEU-4": 0.1875,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: and two girls",
+    "target": "two girls with dogs",
+    "BLEU-4": 0.1714285714285714,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: 2 girls",
+    "target": "two girls with dogs",
+    "BLEU-4": 0.10344827586206899,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: are walking on a forest path",
+    "target": "walking on a forest path",
+    "BLEU-4": 0.42,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking on a forest path",
+    "target": "walking on a forest path",
+    "BLEU-4": 0.45652173913043476,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: are walking in a forest path",
+    "target": "walking on a forest path",
+    "BLEU-4": 0.3400000000000001,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking in a forest path",
+    "target": "walking on a forest path",
+    "BLEU-4": 0.3695652173913043,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: are walking through a forest path",
+    "target": "walking on a forest path",
+    "BLEU-4": 0.2909090909090909,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: playing a guitar",
+    "target": "a person playing a guitar",
+    "BLEU-4": 0.3684210526315789,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: singing a guitar",
+    "target": "a person playing a guitar",
+    "BLEU-4": 0.23684210526315785,
+    "ROUGEL": 0.4
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: plays a guitar",
+    "target": "a person playing a guitar",
+    "BLEU-4": 0.2222222222222222,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: a guitar",
+    "target": "a person playing a guitar",
+    "BLEU-4": 0.2,
+    "ROUGEL": 0.4
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: a person",
+    "target": "a person playing a guitar",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 0.4
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "in traditional Mexican garb",
+    "prediction": "Source Phrase aligns to: wearing a traditional mexican outfit",
+    "target": "wearing a traditional mexican outfit",
+    "BLEU-4": 0.5689655172413793,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "in traditional Mexican garb",
+    "prediction": "Source Phrase aligns to: wearing a traditional mexican clothes",
+    "target": "wearing a traditional mexican outfit",
+    "BLEU-4": 0.4576271186440678,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "in traditional Mexican garb",
+    "prediction": "Source Phrase aligns to: wearing a traditional mexican costume",
+    "target": "wearing a traditional mexican outfit",
+    "BLEU-4": 0.4576271186440678,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "in traditional Mexican garb",
+    "prediction": "Source Phrase aligns to: wearing a traditional mexican dress",
+    "target": "wearing a traditional mexican outfit",
+    "BLEU-4": 0.47368421052631576,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "in traditional Mexican garb",
+    "prediction": "Source Phrase aligns to: wearing a traditional mexican clothing",
+    "target": "wearing a traditional mexican outfit",
+    "BLEU-4": 0.45,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "is being",
+    "prediction": "Source Phrase aligns to: singing to a young male",
+    "target": "is singing",
+    "BLEU-4": 0.11111111111111109,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "is being",
+    "prediction": "Source Phrase aligns to: sing to a young male",
+    "target": "is singing",
+    "BLEU-4": 0.047619047619047616,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "is being",
+    "prediction": "Source Phrase aligns to: singing",
+    "target": "is singing",
+    "BLEU-4": 0.1724137931034483,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "is being",
+    "prediction": "Source Phrase aligns to: singing to a younger male",
+    "target": "is singing",
+    "BLEU-4": 0.10638297872340424,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A young male wearing a traditional mexican outfit is singing to a female who is wearing blue.",
+    "source": "is being",
+    "prediction": "Source Phrase aligns to: singing in a young male",
+    "target": "is singing",
+    "BLEU-4": 0.11111111111111109,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to: A lady",
+    "target": "A woman",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase align to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.14285714285714285,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligning to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to; A woman",
+    "target": "A woman",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to: A lady",
+    "target": "A woman",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase align to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.14285714285714285,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligning to: A woman",
+    "target": "A woman",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A woman painting boxes with a brush.",
+    "source": "A Lady",
+    "prediction": "Source Phrase aligns to; A woman",
+    "target": "A woman",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A group of students arranged in a circle are taking a test.",
+    "source": "Students in a hallway",
+    "prediction": "Source Phrase aligns to: A group of students",
+    "target": "A group of students",
+    "BLEU-4": 0.3902439024390244,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A group of students arranged in a circle are taking a test.",
+    "source": "Students in a hallway",
+    "prediction": "Source Phrase aligns to: in a circle",
+    "target": "A group of students",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "A group of students arranged in a circle are taking a test.",
+    "source": "Students in a hallway",
+    "prediction": "Source Phrase aligns to: A group of student",
+    "target": "A group of students",
+    "BLEU-4": 0.375,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A group of students arranged in a circle are taking a test.",
+    "source": "Students in a hallway",
+    "prediction": "Source Phrase aligns to: In a circle",
+    "target": "A group of students",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "A group of students arranged in a circle are taking a test.",
+    "source": "Students in a hallway",
+    "prediction": "Source Phrase aligns to: are taking a test",
+    "target": "A group of students",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "A girl in a red costume performs a hula-hoop routine for onlookers.",
+    "source": "plays with a hula hoop",
+    "prediction": "Source Phrase aligns to: performs a hoop routine",
+    "target": "performs a hula-hoop routine",
+    "BLEU-4": 0.4,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A girl in a red costume performs a hula-hoop routine for onlookers.",
+    "source": "plays with a hula hoop",
+    "prediction": "Source Phrase aligns to: performs a huddle routine",
+    "target": "performs a hula-hoop routine",
+    "BLEU-4": 0.31914893617021284,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "A girl in a red costume performs a hula-hoop routine for onlookers.",
+    "source": "plays with a hula hoop",
+    "prediction": "Source Phrase aligns to: performs a hoop",
+    "target": "performs a hula-hoop routine",
+    "BLEU-4": 0.2702702702702703,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "A girl in a red costume performs a hula-hoop routine for onlookers.",
+    "source": "plays with a hula hoop",
+    "prediction": "Source Phrase aligns to: performing a hoop routine",
+    "target": "performs a hula-hoop routine",
+    "BLEU-4": 0.2978723404255319,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A girl in a red costume performs a hula-hoop routine for onlookers.",
+    "source": "plays with a hula hoop",
+    "prediction": "Source Phrase aligns to: performs a hula",
+    "target": "performs a hula-hoop routine",
+    "BLEU-4": 0.3243243243243244,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two women",
+    "prediction": "Source Phrase aligns to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two women",
+    "prediction": "Source Phrase aligns to: Two women",
+    "target": "Two men",
+    "BLEU-4": 0.03225806451612903,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two women",
+    "prediction": "Source Phrase aligning to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two women",
+    "prediction": "Source Phrase align to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.14285714285714285,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two women",
+    "prediction": "Source Phrase aligns with: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two people",
+    "prediction": "Source Phrase aligns to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two people",
+    "prediction": "Source Phrase aligning to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two people",
+    "prediction": "Source Phrase aligns with: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two people",
+    "prediction": "Source Phrase align to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.14285714285714285,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two people",
+    "prediction": "Source Phrase aligns to; Two men",
+    "target": "Two men",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two sad men",
+    "prediction": "Source Phrase aligns to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two sad men",
+    "prediction": "Source Phrase aligning to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two sad men",
+    "prediction": "Source Phrase align to: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.14285714285714285,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two sad men",
+    "prediction": "Source Phrase aligns with: Two men",
+    "target": "Two men",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two men peering down from scaffolding.",
+    "source": "Two sad men",
+    "prediction": "Source Phrase aligns to: Two Men",
+    "target": "Two men",
+    "BLEU-4": 0.034482758620689655,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "would preserve the roses",
+    "prediction": "Source Phrase aligns to: would preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.4791666666666667,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "would preserve the roses",
+    "prediction": "Source Phrase aligns to: will preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.3829787234042553,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "would preserve the roses",
+    "prediction": "Source Phrase aligns to: to preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.4,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "would preserve the roses",
+    "prediction": "Source Phrase aligns to: to the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.25,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "would preserve the roses",
+    "prediction": "Source Phrase aligns to: would save the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.3181818181818182,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "preserves the flowers",
+    "prediction": "Source Phrase aligns to: would preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.4791666666666667,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "preserves the flowers",
+    "prediction": "Source Phrase aligns to: preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.42857142857142855,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "preserves the flowers",
+    "prediction": "Source Phrase aligns to: will preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.3829787234042553,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "preserves the flowers",
+    "prediction": "Source Phrase aligns to: to the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.25,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "preserves the flowers",
+    "prediction": "Source Phrase aligns to: to preserve the flowers",
+    "target": "would preserve the flowers",
+    "BLEU-4": 0.4,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "to the water",
+    "prediction": "Source Phrase aligns to: added to the water",
+    "target": "added to the water",
+    "BLEU-4": 0.375,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "to the water",
+    "prediction": "Source Phrase aligns to: adding to the water",
+    "target": "added to the water",
+    "BLEU-4": 0.24390243902439027,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "to the water",
+    "prediction": "Source Phrase aligns to: add to the water",
+    "target": "added to the water",
+    "BLEU-4": 0.2894736842105263,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "to the water",
+    "prediction": "Source Phrase aligns to: to the water",
+    "target": "added to the water",
+    "BLEU-4": 0.29411764705882354,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "An aspirin added to the water would preserve the flowers.",
+    "source": "to the water",
+    "prediction": "Source Phrase aligns to: addition to the water",
+    "target": "added to the water",
+    "BLEU-4": 0.23255813953488372,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "A person on an all-terrain vehicle, sending up clouds of dust.",
+    "source": "riding a vehicle",
+    "prediction": "Source Phrase aligns to: on an all-terrain vehicle",
+    "target": "on an all-terrain vehicle",
+    "BLEU-4": 0.46808510638297873,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A person on an all-terrain vehicle, sending up clouds of dust.",
+    "source": "riding a vehicle",
+    "prediction": "Source Phrase aligns to: in an all-terrain vehicle",
+    "target": "on an all-terrain vehicle",
+    "BLEU-4": 0.44680851063829785,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A person on an all-terrain vehicle, sending up clouds of dust.",
+    "source": "riding a vehicle",
+    "prediction": "Source Phrase aligns to: on an all-terrain car",
+    "target": "on an all-terrain vehicle",
+    "BLEU-4": 0.3488372093023256,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A person on an all-terrain vehicle, sending up clouds of dust.",
+    "source": "riding a vehicle",
+    "prediction": "Source Phrase aligns to: sent up clouds of dust",
+    "target": "on an all-terrain vehicle",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A person on an all-terrain vehicle, sending up clouds of dust.",
+    "source": "riding a vehicle",
+    "prediction": "Source Phrase aligns to: sending up clouds of dust",
+    "target": "on an all-terrain vehicle",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "The stream water",
+    "prediction": "Source Phrase aligns to: in the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "The stream water",
+    "prediction": "Source Phrase aligns to: the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.25,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "The stream water",
+    "prediction": "Source Phrase aligns to: The stream",
+    "target": "in the stream",
+    "BLEU-4": 0.1875,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "The stream water",
+    "prediction": "Source Phrase aligns to: on the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.2571428571428571,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "The stream water",
+    "prediction": "Source Phrase aligns to: from the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.21621621621621626,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "Someone has their feet",
+    "prediction": "Source Phrase aligns to: has her feet",
+    "target": "has her feet",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "Someone has their feet",
+    "prediction": "Source Phrase aligns to: she has her feet",
+    "target": "has her feet",
+    "BLEU-4": 0.23684210526315785,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "Someone has their feet",
+    "prediction": "Source Phrase aligns to: A girl",
+    "target": "has her feet",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "Someone has their feet",
+    "prediction": "Source Phrase aligns to: She has her feet",
+    "target": "has her feet",
+    "BLEU-4": 0.23684210526315785,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "Someone has their feet",
+    "prediction": "Source Phrase aligns to: wearing a blue top",
+    "target": "has her feet",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: in the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: walking in the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.23255813953488372,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.25,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: in the streams",
+    "target": "in the stream",
+    "BLEU-4": 0.2777777777777778,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A girl wearing a blue top has her feet in the stream.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: on the stream",
+    "target": "in the stream",
+    "BLEU-4": 0.2571428571428571,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A duck is in water surrounded by cans, containers and other garbage.",
+    "source": "is in the water",
+    "prediction": "Source Phrase aligns to: is in water",
+    "target": "is in water",
+    "BLEU-4": 0.24242424242424243,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A duck is in water surrounded by cans, containers and other garbage.",
+    "source": "is in the water",
+    "prediction": "Source Phrase aligns to: is in the water",
+    "target": "is in water",
+    "BLEU-4": 0.16216216216216217,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A duck is in water surrounded by cans, containers and other garbage.",
+    "source": "is in the water",
+    "prediction": "Source Phrase aligns to: are in water",
+    "target": "is in water",
+    "BLEU-4": 0.17647058823529413,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A duck is in water surrounded by cans, containers and other garbage.",
+    "source": "is in the water",
+    "prediction": "Source Phrase aligns to: is covered in water",
+    "target": "is in water",
+    "BLEU-4": 0.14634146341463414,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A duck is in water surrounded by cans, containers and other garbage.",
+    "source": "is in the water",
+    "prediction": "Source Phrase aligns to: is water",
+    "target": "is in water",
+    "BLEU-4": 0.10000000000000002,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A brown dog and a black dog are playing with a red Frisbee.",
+    "source": "playing frisbee",
+    "prediction": "Source Phrase aligns to: are playing with a red Frisbee",
+    "target": "with a red Frisbee",
+    "BLEU-4": 0.28846153846153844,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A brown dog and a black dog are playing with a red Frisbee.",
+    "source": "playing frisbee",
+    "prediction": "Source Phrase aligns to: are playing with a red frisbee",
+    "target": "with a red Frisbee",
+    "BLEU-4": 0.21153846153846154,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A brown dog and a black dog are playing with a red Frisbee.",
+    "source": "playing frisbee",
+    "prediction": "Source Phrase aligns to: are playing with a black dog",
+    "target": "with a red Frisbee",
+    "BLEU-4": 0.07999999999999999,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A brown dog and a black dog are playing with a red Frisbee.",
+    "source": "playing frisbee",
+    "prediction": "Source Phrase aligns to: are playing with a brown dog",
+    "target": "with a red Frisbee",
+    "BLEU-4": 0.07999999999999999,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A brown dog and a black dog are playing with a red Frisbee.",
+    "source": "playing frisbee",
+    "prediction": "Source Phrase aligns to: playing with a red Frisbee",
+    "target": "with a red Frisbee",
+    "BLEU-4": 0.3125,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "Grandma serves birthday cake",
+    "prediction": "Source Phrase aligns to: serving birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.4186046511627907,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "Grandma serves birthday cake",
+    "prediction": "Source Phrase aligns to: Serving birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.3953488372093023,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "Grandma serves birthday cake",
+    "prediction": "Source Phrase aligns to: served birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "Grandma serves birthday cake",
+    "prediction": "Source Phrase aligns to: serving birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.4186046511627907,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "Grandma serves birthday cake",
+    "prediction": "Source Phrase aligns to: providing birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.31111111111111106,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to the birthday boy",
+    "prediction": "Source Phrase aligns to: serving birthday cake",
+    "target": "to happy children",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to the birthday boy",
+    "prediction": "Source Phrase aligns to: serving birthday cake to happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.2295081967213115,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to the birthday boy",
+    "prediction": "Source Phrase aligns to: serving birthday cake for happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.1935483870967742,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to the birthday boy",
+    "prediction": "Source Phrase aligns to: to happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.3589743589743589,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to the birthday boy",
+    "prediction": "Source Phrase aligns to: serving birthday cake to happy people",
+    "target": "to happy children",
+    "BLEU-4": 0.10169491525423731,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "An old woman",
+    "prediction": "Source Phrase aligns to: An elderly woman",
+    "target": "An elderly woman",
+    "BLEU-4": 0.3421052631578948,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "An old woman",
+    "prediction": "Source Phrase aligns to: an elderly woman",
+    "target": "An elderly woman",
+    "BLEU-4": 0.3157894736842105,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "An old woman",
+    "prediction": "Source Phrase aligns to: A elderly woman",
+    "target": "An elderly woman",
+    "BLEU-4": 0.2972972972972973,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "An old woman",
+    "prediction": "Source Phrase aligns to: An older woman",
+    "target": "An elderly woman",
+    "BLEU-4": 0.11111111111111109,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "An old woman",
+    "prediction": "Source Phrase aligns to: An elderly lady",
+    "target": "An elderly woman",
+    "BLEU-4": 0.21621621621621626,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "serves cake",
+    "prediction": "Source Phrase aligns to: serving birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.4186046511627907,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "serves cake",
+    "prediction": "Source Phrase aligns to: served birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "serves cake",
+    "prediction": "Source Phrase aligns to: providing birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.31111111111111106,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "serves cake",
+    "prediction": "Source Phrase aligns to: serving birthday cakes",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.4090909090909091,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "serves cake",
+    "prediction": "Source Phrase alignes to: serving birthday cake",
+    "target": "serving birthday cake",
+    "BLEU-4": 0.4090909090909091,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to children",
+    "prediction": "Source Phrase aligns to: to happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.3589743589743589,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to children",
+    "prediction": "Source Phrase aligns to: serving birthday cake",
+    "target": "to happy children",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to children",
+    "prediction": "Source Phrase aligns to: happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.3333333333333333,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to children",
+    "prediction": "Source Phrase aligns to: to the happy children",
+    "target": "to happy children",
+    "BLEU-4": 0.27906976744186046,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "An elderly woman serving birthday cake to happy children",
+    "source": "to children",
+    "prediction": "Source Phrase aligns to: to happier children",
+    "target": "to happy children",
+    "BLEU-4": 0.24390243902439027,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "A husband",
+    "prediction": "Source Phrase aligns to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "A husband",
+    "prediction": "Source Phrase aligning to: A man",
+    "target": "A man",
+    "BLEU-4": 0.06896551724137931,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "A husband",
+    "prediction": "Source Phrase aligns to: A Man",
+    "target": "A man",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "A husband",
+    "prediction": "Source Phrase align to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07692307692307693,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "A husband",
+    "prediction": "Source Phrase aligns to; A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "and wife",
+    "prediction": "Source Phrase aligns to: A man",
+    "target": "and woman",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "and wife",
+    "prediction": "Source Phrase aligns to: and woman",
+    "target": "and woman",
+    "BLEU-4": 0.1935483870967742,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "and wife",
+    "prediction": "Source Phrase aligns to: a man",
+    "target": "and woman",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "and wife",
+    "prediction": "Source Phrase alignes to: A man",
+    "target": "and woman",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A man and woman walking along a beach.",
+    "source": "and wife",
+    "prediction": "Source Phrase aligns to: and women",
+    "target": "and woman",
+    "BLEU-4": 0.12903225806451615,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "The man",
+    "prediction": "Source Phrase aligns to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "The man",
+    "prediction": "Source Phrase align to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07692307692307693,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "The man",
+    "prediction": "Source Phrase aligning to: A man",
+    "target": "A man",
+    "BLEU-4": 0.06896551724137931,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "The man",
+    "prediction": "Source Phrase aligns to; A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "The man",
+    "prediction": "Source Phrase aligns into: A man",
+    "target": "A man",
+    "BLEU-4": 0.06896551724137931,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "is a passenger",
+    "prediction": "Source Phrase aligns to: is the passenger",
+    "target": "is the passenger of a green car",
+    "BLEU-4": 0.3421052631578948,
+    "ROUGEL": 0.42857142857142855
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "is a passenger",
+    "prediction": "Source Phrase aligns to: is the passenger of a green car",
+    "target": "is the passenger of a green car",
+    "BLEU-4": 0.5283018867924528,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "is a passenger",
+    "prediction": "Source Phrase aligns to: is the passenger in a green car",
+    "target": "is the passenger of a green car",
+    "BLEU-4": 0.4339622641509434,
+    "ROUGEL": 0.8571428571428571
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "is a passenger",
+    "prediction": "Source Phrase aligns to: are the passenger of a green car",
+    "target": "is the passenger of a green car",
+    "BLEU-4": 0.48148148148148145,
+    "ROUGEL": 0.8571428571428571
+  },
+  {
+    "premise": "A man in an orange shirt is the passenger of a green car.",
+    "source": "is a passenger",
+    "prediction": "Source Phrase aligns to: is the passenger for a green car",
+    "target": "is the passenger of a green car",
+    "BLEU-4": 0.42592592592592593,
+    "ROUGEL": 0.8571428571428571
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A little boy",
+    "target": "A little boy",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A boy",
+    "target": "A little boy",
+    "BLEU-4": 0.037037037037037035,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A small boy",
+    "target": "A little boy",
+    "BLEU-4": 0.030303030303030304,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A young boy",
+    "target": "A little boy",
+    "BLEU-4": 0.030303030303030304,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A tiny boy",
+    "target": "A little boy",
+    "BLEU-4": 0.03125,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A little boy",
+    "target": "A little boy",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A boy",
+    "target": "A little boy",
+    "BLEU-4": 0.037037037037037035,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A small boy",
+    "target": "A little boy",
+    "BLEU-4": 0.030303030303030304,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A young boy",
+    "target": "A little boy",
+    "BLEU-4": 0.030303030303030304,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "The boy",
+    "prediction": "Source Phrase aligns to: A tiny boy",
+    "target": "A little boy",
+    "BLEU-4": 0.03125,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: playing in the pool",
+    "target": "playing in the pool",
+    "BLEU-4": 0.3902439024390244,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: in the pool",
+    "target": "playing in the pool",
+    "BLEU-4": 0.2727272727272727,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: playing in the pools",
+    "target": "playing in the pool",
+    "BLEU-4": 0.38095238095238093,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: playing around the pool",
+    "target": "playing in the pool",
+    "BLEU-4": 0.24444444444444446,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "A little boy playing in the pool giving a thumbs up.",
+    "source": "in the water",
+    "prediction": "Source Phrase aligns to: playing on the pool",
+    "target": "playing in the pool",
+    "BLEU-4": 0.2926829268292683,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are two nude children",
+    "prediction": "Source Phrase aligns to: Two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.375,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are two nude children",
+    "prediction": "Source Phrase aligns to: two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.3499999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are two nude children",
+    "prediction": "Source Phrase alignes to: Two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.3658536585365854,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are two nude children",
+    "prediction": "Source Phrase aligns to: Two naked kids",
+    "target": "Two naked children",
+    "BLEU-4": 0.19444444444444445,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are two nude children",
+    "prediction": "Source Phrase aligns to: Two naked child",
+    "target": "Two naked children",
+    "BLEU-4": 0.3243243243243244,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on his chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark",
+    "target": "one with a mark",
+    "BLEU-4": 0.2727272727272727,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on the chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark in his chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on their chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1875,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are nude children",
+    "prediction": "Source Phrase aligns to: Two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.375,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are nude children",
+    "prediction": "Source Phrase aligns to: two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.3499999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are nude children",
+    "prediction": "Source Phrase alignes to: Two naked children",
+    "target": "Two naked children",
+    "BLEU-4": 0.3658536585365854,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are nude children",
+    "prediction": "Source Phrase aligns to: Two naked kids",
+    "target": "Two naked children",
+    "BLEU-4": 0.19444444444444445,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "these are nude children",
+    "prediction": "Source Phrase aligns to: Two naked children.",
+    "target": "Two naked children",
+    "BLEU-4": 0.3658536585365854,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on his chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark",
+    "target": "one with a mark",
+    "BLEU-4": 0.2727272727272727,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on the chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark in his chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1956521739130435,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Two naked children, one with a mark on his chest.",
+    "source": "has a mark",
+    "prediction": "Source Phrase aligns to: with a mark on their chest",
+    "target": "one with a mark",
+    "BLEU-4": 0.1875,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "is playing hockey outside",
+    "prediction": "Source Phrase aligns to: playing a game of hockey outside",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.5370370370370371,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "is playing hockey outside",
+    "prediction": "Source Phrase aligns to: playing a game outside",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.4090909090909091,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "is playing hockey outside",
+    "prediction": "Source Phrase aligns to: playing a game outside on the road",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.32142857142857145,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "is playing hockey outside",
+    "prediction": "Source Phrase aligns to: playing hockey outside",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.38636363636363635,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "is playing hockey outside",
+    "prediction": "Source Phrase aligns to: playing hockey outside on the road",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.30357142857142855,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "playing hockey",
+    "prediction": "Source Phrase aligns to: playing a game of hockey",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.45652173913043476,
+    "ROUGEL": 0.8333333333333334
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "playing hockey",
+    "prediction": "Source Phrase aligns to: playing a game of hockey outside",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.5370370370370371,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "playing hockey",
+    "prediction": "Source Phrase aligns to: playing in a game of hockey",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.3877551020408163,
+    "ROUGEL": 0.8333333333333334
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "playing hockey",
+    "prediction": "Source Phrase aligns to: playing a game of hockey outdoors",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.45454545454545453,
+    "ROUGEL": 0.8333333333333334
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "playing hockey",
+    "prediction": "Source Phrase aligns to: playing a game of hockey inside",
+    "target": "playing a game of hockey outside",
+    "BLEU-4": 0.4339622641509434,
+    "ROUGEL": 0.8333333333333334
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "Some players",
+    "prediction": "Source Phrase aligns to: Several players",
+    "target": "Several players",
+    "BLEU-4": 0.3243243243243244,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "Some players",
+    "prediction": "Source Phrase aligns to: Various players",
+    "target": "Several players",
+    "BLEU-4": 0.13513513513513517,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "Some players",
+    "prediction": "Source Phrase aligns to:  several players",
+    "target": "Several players",
+    "BLEU-4": 0.2894736842105263,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "Some players",
+    "prediction": "Source Phrase aligns to: Several player",
+    "target": "Several players",
+    "BLEU-4": 0.3055555555555556,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Several players playing a game of hockey outside on the road.",
+    "source": "Some players",
+    "prediction": "Source Phrase aligns to: Several people",
+    "target": "Several players",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 0.5
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "A child",
+    "prediction": "Source Phrase aligns to: A little girl",
+    "target": "A little girl",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "A child",
+    "prediction": "Source Phrase aligns to: A small girl",
+    "target": "A little girl",
+    "BLEU-4": 0.0588235294117647,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "A child",
+    "prediction": "Source Phrase aligns to: A tiny girl",
+    "target": "A little girl",
+    "BLEU-4": 0.060606060606060615,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "A child",
+    "prediction": "Source Phrase aligns to: A baby girl",
+    "target": "A little girl",
+    "BLEU-4": 0.060606060606060615,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "A child",
+    "prediction": "Source Phrase aligns to: A young girl",
+    "target": "A little girl",
+    "BLEU-4": 0.0588235294117647,
+    "ROUGEL": 0.6666666666666666
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "coloring",
+    "prediction": "Source Phrase aligns to: coloring",
+    "target": "coloring on a large white sheet of paper",
+    "BLEU-4": 0.13481110786368164,
+    "ROUGEL": 0.125
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "coloring",
+    "prediction": "Source Phrase aligns to: floor coloring",
+    "target": "coloring on a large white sheet of paper",
+    "BLEU-4": 0.1353729046816878,
+    "ROUGEL": 0.125
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "coloring",
+    "prediction": "Source Phrase aligns to: color",
+    "target": "coloring on a large white sheet of paper",
+    "BLEU-4": 0.05307639337583624,
+    "ROUGEL": 0.125
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "coloring",
+    "prediction": "Source Phrase aligns to: the floor coloring",
+    "target": "coloring on a large white sheet of paper",
+    "BLEU-4": 0.12500000000000003,
+    "ROUGEL": 0.125
+  },
+  {
+    "premise": "A little girl is laying on her tummy on the floor coloring on a large white sheet of paper.",
+    "source": "coloring",
+    "prediction": "Source Phrase aligns to: to the floor coloring",
+    "target": "coloring on a large white sheet of paper",
+    "BLEU-4": 0.11627906976744189,
+    "ROUGEL": 0.125
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: old man",
+    "target": "Old man",
+    "BLEU-4": 0.10344827586206899,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: An old man",
+    "target": "Old man",
+    "BLEU-4": 0.09374999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old Man",
+    "target": "Old man",
+    "BLEU-4": 0.034482758620689655,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase alignes to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: old man",
+    "target": "Old man",
+    "BLEU-4": 0.10344827586206899,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: An old man",
+    "target": "Old man",
+    "BLEU-4": 0.09374999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old Man",
+    "target": "Old man",
+    "BLEU-4": 0.034482758620689655,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase alignes to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: old man",
+    "target": "Old man",
+    "BLEU-4": 0.10344827586206899,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: An old man",
+    "target": "Old man",
+    "BLEU-4": 0.09374999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase aligns to: Old Man",
+    "target": "Old man",
+    "BLEU-4": 0.034482758620689655,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Old man in red shirt with silver umbrella.",
+    "source": "An old man",
+    "prediction": "Source Phrase alignes to: Old man",
+    "target": "Old man",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Student",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students in one direction",
+    "target": "Students are carefully",
+    "BLEU-4": 0.12765957446808512,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students are carefully focused",
+    "target": "Students are carefully",
+    "BLEU-4": 0.3653846153846153,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing on an object",
+    "prediction": "Source Phrase aligns to: are carefully focused in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.3499999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing on an object",
+    "prediction": "Source Phrase aligns to: are carefully focused on one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.2833333333333333,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing on an object",
+    "prediction": "Source Phrase aligns to: are careful focused in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.3620689655172414,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing on an object",
+    "prediction": "Source Phrase aligns to: are carefully focus in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.27586206896551724,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing on an object",
+    "prediction": "Source Phrase aligns to: carefully focused in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.375,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Student",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students in one direction",
+    "target": "Students are carefully",
+    "BLEU-4": 0.12765957446808512,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students are carefully focused",
+    "target": "Students are carefully",
+    "BLEU-4": 0.3653846153846153,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.16666666666666669,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Student",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13793103448275862,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students in one direction",
+    "target": "Students are carefully",
+    "BLEU-4": 0.12765957446808512,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: students",
+    "target": "Students are carefully",
+    "BLEU-4": 0.13333333333333333,
+    "ROUGEL": 0.3333333333333333
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "Students are",
+    "prediction": "Source Phrase aligns to: Students are carefully focused",
+    "target": "Students are carefully",
+    "BLEU-4": 0.3653846153846153,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing",
+    "prediction": "Source Phrase aligns to: are carefully focused in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.3499999999999999,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing",
+    "prediction": "Source Phrase aligns to: are carefully focused",
+    "target": "focused in one direction",
+    "BLEU-4": 0.09302325581395347,
+    "ROUGEL": 0.25
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing",
+    "prediction": "Source Phrase aligns to: are carefully focused on one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.2833333333333333,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing",
+    "prediction": "Source Phrase aligns to: are careful focused in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.3620689655172414,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "Students are carefully focused in one direction.",
+    "source": "focusing",
+    "prediction": "Source Phrase aligns to: are carefully focussed in one direction",
+    "target": "focused in one direction",
+    "BLEU-4": 0.31147540983606564,
+    "ROUGEL": 0.75
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "A person",
+    "prediction": "Source Phrase aligns to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "A person",
+    "prediction": "Source Phrase aligning to: A man",
+    "target": "A man",
+    "BLEU-4": 0.06896551724137931,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "A person",
+    "prediction": "Source Phrase align to: A man",
+    "target": "A man",
+    "BLEU-4": 0.07692307692307693,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "A person",
+    "prediction": "Source Phrase aligns to; A man",
+    "target": "A man",
+    "BLEU-4": 0.07407407407407407,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "A person",
+    "prediction": "Source Phrase aligns to:A man",
+    "target": "A man",
+    "BLEU-4": 0.07692307692307693,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "on the street",
+    "prediction": "Source Phrase aligns to: sitting on the sidewalk",
+    "target": "on the sidewalk",
+    "BLEU-4": 0.26666666666666666,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "on the street",
+    "prediction": "Source Phrase aligns to: is sitting on the sidewalk",
+    "target": "on the sidewalk",
+    "BLEU-4": 0.25,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "on the street",
+    "prediction": "Source Phrase aligns to: sit on the sidewalk",
+    "target": "on the sidewalk",
+    "BLEU-4": 0.2926829268292683,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "on the street",
+    "prediction": "Source Phrase aligns to: on the sidewalk",
+    "target": "on the sidewalk",
+    "BLEU-4": 0.3243243243243244,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A man wearing black pants and dark blue sweater is sitting on the sidewalk and playing his brown acoustic guitar.",
+    "source": "on the street",
+    "prediction": "Source Phrase aligns to: sits on the sidewalk",
+    "target": "on the sidewalk",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A black and white dog has a red toy in his mouth and is jumping.",
+    "source": "with him",
+    "prediction": "Source Phrase aligns to: A black and white dog",
+    "target": "in his mouth",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A black and white dog has a red toy in his mouth and is jumping.",
+    "source": "with him",
+    "prediction": "Source Phrase aligns to: and is jumping",
+    "target": "in his mouth",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A black and white dog has a red toy in his mouth and is jumping.",
+    "source": "with him",
+    "prediction": "Source Phrase aligns to: in his mouth",
+    "target": "in his mouth",
+    "BLEU-4": 0.2647058823529412,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A black and white dog has a red toy in his mouth and is jumping.",
+    "source": "with him",
+    "prediction": "Source Phrase aligns to: the dog",
+    "target": "in his mouth",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A black and white dog has a red toy in his mouth and is jumping.",
+    "source": "with him",
+    "prediction": "Source Phrase aligns to: A white and white dog",
+    "target": "in his mouth",
+    "BLEU-4": 2.2250738585072626e-308,
+    "ROUGEL": 0.0
+  },
+  {
+    "premise": "A small group of people, one being a man with an orange shirt and watch, look at a painting on the wall.",
+    "source": "A small group of friends",
+    "prediction": "Source Phrase aligns to: A small group of people",
+    "target": "A small group of people",
+    "BLEU-4": 0.4444444444444444,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A small group of people, one being a man with an orange shirt and watch, look at a painting on the wall.",
+    "source": "A small group of friends",
+    "prediction": "Source Phrase aligns to: A small group",
+    "target": "A small group of people",
+    "BLEU-4": 0.2857142857142857,
+    "ROUGEL": 0.6
+  },
+  {
+    "premise": "A small group of people, one being a man with an orange shirt and watch, look at a painting on the wall.",
+    "source": "A small group of friends",
+    "prediction": "Source Phrase aligning to: A small group of people",
+    "target": "A small group of people",
+    "BLEU-4": 0.425531914893617,
+    "ROUGEL": 1.0
+  },
+  {
+    "premise": "A small group of people, one being a man with an orange shirt and watch, look at a painting on the wall.",
+    "source": "A small group of friends",
+    "prediction": "Source Phrase aligns to: A small group of persons",
+    "target": "A small group of people",
+    "BLEU-4": 0.3478260869565218,
+    "ROUGEL": 0.8
+  },
+  {
+    "premise": "A small group of people, one being a man with an orange shirt and watch, look at a painting on the wall.",
+    "source": "A small group of friends",
+    "prediction": "Source Phrase align to: A small group of people",
+    "target": "A small group of people",
+    "BLEU-4": 0.45454545454545453,
+    "ROUGEL": 1.0
+  }
+]

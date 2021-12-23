@@ -1,0 +1,301 @@
+[
+  {
+    "premise": "A man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: A man and two dogs",
+    "target": "A man , a woman , and two dogs",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        0.7142857142857143,
+        0.6250000000000001
+      ]
+    }
+  },
+  {
+    "premise": "A man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: A man a woman",
+    "target": "A man , a woman , and two dogs",
+    "scores": {
+      "rouge": [
+        0.5,
+        0.5714285714285714,
+        0.5333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "A man , a woman , and two dogs are walking on the beach .",
+    "source": "walking along the ocean",
+    "prediction": "walking on the beach",
+    "target": "walking on the beach",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "A man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down the road",
+    "target": "down the road",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "a tall man is running",
+    "source": "a man who is tall",
+    "prediction": "a tall man",
+    "target": "a tall man",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "A student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: A student broke",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        0.75,
+        0.5454545454545454
+      ]
+    }
+  },
+  {
+    "premise": "A dark black dog and a light brown dog are fighting in the backyard",
+    "source": "in the grass",
+    "prediction": "Source Phrase aligns to: in the backyard",
+    "target": "in the backyard",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding poles",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "There is no dog running in the grass",
+    "source": "in the backyard",
+    "prediction": "Source Phrase aligns to: in the grass",
+    "target": "running in the grass",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        0.75,
+        0.5454545454545454
+      ]
+    }
+  },
+  {
+    "premise": "A dog that has a brown and white coat is sitting in shallow water",
+    "source": "through shallow water",
+    "prediction": "Source Phrase aligns to: in shallow water",
+    "target": "in shallow water",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "A white and brown dog is walking through the water with difficulty",
+    "source": "is pacing",
+    "prediction": "Source Phrase aligns to: is walking",
+    "target": "is walking",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "A lady of young age",
+    "prediction": "Source Phrase aligns to: A young lady with light brown hair",
+    "target": "A young lady",
+    "scores": {
+      "rouge": [
+        0.2727272727272727,
+        1.0,
+        0.42857142857142855
+      ]
+    }
+  },
+  
+  {
+    "premise": "A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "worn with light brown hair",
+    "prediction": "Source Phrase aligns to: wearing a young lady with light brown hair",
+    "target": "with light brown hair",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "worn with light brown hair",
+    "prediction": "Source Phrase aligns to: a young lady with light brown hair",
+    "target": "with light brown hair",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "is suited",
+    "prediction": "Source Phrase aligns to: is wearing",
+    "target": "is wearing",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "A lady of young age, with light brown hair, is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "A teenage girl",
+    "prediction": "Source Phrase aligns to: A lady of young age",
+    "target": "A lady of young age",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "A young lady with light brown hair is wearing a red necklace, a sweatshirt and earrings and is smiling",
+    "source": "The teenage girl",
+    "prediction": "Source Phrase aligns to: A young lady",
+    "target": "A young lady",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "A boy is climbing up a wall artificially built for climbing and is attached to a rope",
+    "source": "A climbing boy",
+    "prediction": "Source Phrase aligns to: A boy is climbing",
+    "target": "A boy",
+    "scores": {
+      "rouge": [
+        0.25,
+        1.0,
+        0.4
+      ]
+    }
+  },
+  {
+    "premise": "A dad is launching his daughter into a swimming pool",
+    "source": "A father",
+    "prediction": "Source Phrase aligns to: A dad",
+    "target": "A dad",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "A dad is launching his daughter into a swimming pool",
+    "source": "is launching the daughter",
+    "prediction": "Source Phrase aligns to: is launching his daughter into",
+    "target": "is launching his daughter",
+    "scores": {
+      "rouge": [
+        0.4444444444444444,
+        1.0,
+        0.6153846153846153
+      ]
+    }
+  },
+  {
+    "premise": "A dad is launching his daughter into a swimming pool",
+    "source": "in a swimming pool",
+    "prediction": "Source Phrase aligns to: into a swimming pool",
+    "target": "into a swimming pool",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "A person is climbing a rock with a rope, which is pink",
+    "source": "is climbing the cliff",
+    "prediction": "Source Phrase aligns to: is climbing the cliff",
+    "target": "is climbing a rock",
+    "scores": {
+      "rouge": [
+        0.25,
+        0.5,
+        0.3333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "A dog, which is black, and a white one are staring at each other in the street",
+    "source": "at the black street",
+    "prediction": "Source Phrase aligns to: in the street, which is black",
+    "target": "in the street, which is black",
+    "scores": {
+      "rouge": [
+        0.3,
+        1.0,
+        0.4615384615384615
+      ]
+    }
+  }
+]

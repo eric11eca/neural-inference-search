@@ -1,0 +1,314 @@
+[
+  {
+    "premise": "two dogs are wrestling and hugging",
+    "source": "Source Phrase: there is no dog wrestling",
+    "prediction": "Source Phrase Contradicts: two dogs are wrestling",
+    "target": "two dogs are wrestling",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "there is no man in a black jacket doing tricks on a motorbike",
+    "source": "Source Phrase: a person in a black jacket is doing tricks",
+    "prediction": "Source Phrase Contradicts: there is no man in a black jacket doing tricks",
+    "target": "there is no man in a black jacket doing tricks",
+    "scores": {
+      "rouge": [
+        0.7142857142857143,
+        1.0,
+        0.8333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "nobody is riding the bicycle on one wheel",
+    "source": "Source Phrase: a person",
+    "prediction": "Source Phrase Contradicts: nobody",
+    "target": "nobody",
+    "scores": {
+      "rouge": [
+        0.2,
+        1.0,
+        0.33333333333333337
+      ]
+    }
+  },
+  {
+    "premise": "a man with a jersey is dunking the ball at a basketball game",
+    "source": "Source Phrase: there is no man dunking",
+    "prediction": "Source Phrase Contradicts: a man witha jersey is dunking",
+    "target": "a man with a jersey is dunking",
+    "scores": {
+      "rouge": [
+        0.5,
+        0.7142857142857143,
+        0.588235294117647
+      ]
+    }
+  },
+  {
+    "premise": "the player is missing the basket and a crowd is in background",
+    "source": "Source Phrase: is dunking the basketball",
+    "prediction": "Source Phrase Contradicts: is missing the basket",
+    "target": "is missing the basket",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "there is no man dunking the ball at a basketball game",
+    "source": "Source Phrase: the player is dunking",
+    "prediction": "Source Phrase Contradicts: there is no man dunking",
+    "target": "there is no man dunking",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "two children are lying in the snow and are making snow angels",
+    "source": "Source Phrase: there is no child lying",
+    "prediction": "Source Phrase Contradicts: two children are lying",
+    "target": "two children are lying",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "two people in snowsuits are lying in the snow and making snow angels",
+    "source": "Source Phrase: nobody",
+    "prediction": "Source Phrase Contradicts: two people in snowsuits",
+    "target": "two people",
+    "scores": {
+      "rouge": [
+        0.25,
+        1.0,
+        0.4
+      ]
+    }
+  },
+  {
+    "premise": "two children are lying in the snow and are making snow angels",
+    "source": "Source Phrase: nobody",
+    "prediction": "Source Phrase Contradicts: two children",
+    "target": "two children",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "a person is wearing a hat and is sitting on the grass",
+    "source": "Source Phrase: there is no person wearing",
+    "prediction": "Source Phrase Contradicts: a person is wearing",
+    "target": "a person is wearing",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "nobody is practicing water safety and wearing preservers",
+    "source": "Source Phrase: this group of people",
+    "prediction": "Source Phrase Contradicts: nobody",
+    "target": "nobody",
+    "scores": {
+      "rouge": [
+        0.2,
+        1.0,
+        0.33333333333333337
+      ]
+    }
+  },
+  {
+    "premise": "a deer is jumping a fence",
+    "source": "Source Phrase: there is no deer jumping",
+    "prediction": "Source Phrase Contradicts: a deer is jumping",
+    "target": "a deer is jumping",
+    "scores": {
+      "rouge": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "there is no deer jumping fences",
+    "source": "Source Phrase: a deer is jumping",
+    "prediction": "Source Phrase Contradicts: there is no deer jumping",
+    "target": "there is no deer jumping",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "a deer is jumping a fence",
+    "source": "Source Phrase: isn't jumping",
+    "prediction": "Source Phrase Contradicts: is jumping",
+    "target": "is jumping",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "a child is hitting a baseball",
+    "source": "Source Phrase: is missing",
+    "prediction": "Source Phrase Contradicts: is hitting",
+    "target": "is hitting",
+    "scores": {
+      "rouge": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "nobody is on a motorcycle and is standing on the seat",
+    "source": "Source Phrase: a motorcycle rider",
+    "prediction": "Source Phrase Contradicts: nobody is on a motorcycle",
+    "target": "nobody",
+    "scores": {
+      "rouge": [
+        0.1111111111111111,
+        1.0,
+        0.19999999999999998
+      ]
+    }
+  },
+  {
+    "premise": "someone is on a black and white motorcycle and is standing on the seat",
+    "source": "Source Phrase: no motorcycle rider is standing up on the seat",
+    "prediction": "Source Phrase Contradicts: someone is on a black and white motorcycle and is standing on",
+    "target": "is standing on the seat",
+    "scores": {
+      "rouge": [
+        0.1875,
+        0.6,
+        0.2857142857142857
+      ]
+    }
+  },
+  {
+    "premise": "there is no motorcyclist riding a motorbike along a roadway",
+    "source": "Source Phrase: a motorcyclist with a red helmet is riding",
+    "prediction": "Source Phrase Contradicts: there is no motorcyclist riding",
+    "target": "there is no motorcyclist riding",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "there is no dog leaping in the air",
+    "source": "Source Phrase: a dog is leaping",
+    "prediction": "Source Phrase Contradicts: there is no dog leaping",
+    "target": "there is no dog leaping",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "the children of a family are playing and waiting",
+    "source": "Source Phrase: there are no children playing",
+    "prediction": "Source Phrase Contradicts: the children are playing",
+    "target": "the children of a family are playing",
+    "scores": {
+      "rouge": [
+        0.5,
+        0.5714285714285714,
+        0.5333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "the children of a family are playing and waiting",
+    "source": "Source Phrase: there are no children playing",
+    "prediction": "Source Phrase Contradicts: the children of an family are playing",
+    "target": "the children of a family are playing",
+    "scores": {
+      "rouge": [
+        0.5454545454545454,
+        0.8571428571428571,
+        0.6666666666666665
+      ]
+    }
+  },
+  {
+    "premise": "the woman is not wearing glasses or a headdress",
+    "source": "Source Phrase: is wearing",
+    "prediction": "Source Phrase Contradicts: is not wearing",
+    "target": "is not wearing",
+    "scores": {
+      "rouge": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "the woman is not wearing glasses or a headdress",
+    "source": "Source Phrase: is wearing an egyptian headdress",
+    "prediction": "Source Phrase Contradicts: is not wearing glasses or a headdress",
+    "target": "is not wearing glasses or a headdress",
+    "scores": {
+      "rouge": [
+        0.6363636363636364,
+        1.0,
+        0.7777777777777778
+      ]
+    }
+  },
+  {
+    "premise": "a group of children in uniforms is standing at a gate and there is no one kissing the mother",
+    "source": "Source Phrase: one is kissing",
+    "prediction": "Source Phrase Contradicts: there is no one kissing",
+    "target": "there is no one kissing",
+    "scores": {
+      "rouge": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  }
+]
