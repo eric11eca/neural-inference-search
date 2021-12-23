@@ -2,11 +2,10 @@ import comet.train.batch as batch
 import comet.evaluate.evaluate as base_evaluate
 import numpy as np
 
+
 def make_evaluator(opt, *args):
     if opt.exp == "generation":
         return AtomicGenerationEvaluator(opt, *args)
-    else:
-        return AtomicClassificationEvaluator(opt, *args)
 
 
 class AtomicGenerationEvaluator(base_evaluate.Evaluator):

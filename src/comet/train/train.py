@@ -164,7 +164,7 @@ class Trainer(object):
 
     def update_parameters(self):
         if self.opt.model == "lstm":
-                self.clip_gradients()
+            self.clip_gradients()
         self.optimizer.step()
         self.optimizer.zero_grad()
 
@@ -230,4 +230,3 @@ class IteratorTrainer(Trainer):
 
             if reset:
                 self.data_loader.reset_offsets("train")
-

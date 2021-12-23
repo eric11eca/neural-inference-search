@@ -49,7 +49,6 @@ class ConceptNetGenerator(base_generate.Generator):
         with torch.no_grad():
             # Cycle through development set
             while not reset:
-
                 start = len(sequences)
                 # Generate a single batch
                 reset = self.generate_batch(sequences, split, bs=1)

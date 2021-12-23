@@ -85,8 +85,8 @@ class SummarizationModule(BaseTransformer):
             "val": self.hparams.n_val,
             "test": self.hparams.n_test,
         }
-        self.n_obs = {k: v if v >= 0 else None for k,
-                      v in n_observations_per_split.items()}
+        self.n_obs = {
+            k: v if v >= 0 else None for k, v in n_observations_per_split.items()}
 
         self.target_lens = {
             "train": self.hparams.max_target_length,
@@ -193,7 +193,7 @@ class SummarizationModule(BaseTransformer):
         gen_time = (time.time() - t0) / source_ids.shape[0]
         preds = self.ids_to_clean_text(generated_ids)
         target = self.ids_to_clean_text(y)
-        loss_tensors = self._step(batch)
+        loss_tensors = self._step(batch),
         base_metrics = {name: loss for name,
                         loss in zip(self.loss_names, loss_tensors)}/
         rouge: Dict = self.calc_generative_metrics(preds, target)
@@ -427,8 +427,9 @@ def main(args, model=None) -> SummarizationModule:
     elif args.logger_name == "wandb_shared":
         from pytorch_lightning.loggers import WandbLogger
 
-        logger = WandbLogger(name=model.output_dir.name,
-                             project=f"hf_{dataset}")
+        logger = WandbLogger(
+            name=model.output_dir.name, project=f"hf_{dataset}")
+
     trainer: pl.Trainer = generic_train(
         model,
         args,
