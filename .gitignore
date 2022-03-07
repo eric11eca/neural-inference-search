@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+./runs/
+./lightning_log/
 .Python
 build/
 develop-eggs/
