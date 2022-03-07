@@ -1,0 +1,103 @@
+train_alignment_pairs = []
+val_alignment_pairs = [
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "target": "a man , a woman , and two dogs",
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "target": "down the road",
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "target": "student broke a screen",
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "target": "a student broke a screen",
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "target": "man doing a bicycle trick",
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "target": "holding fishing poles",
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "target": "a rock which is vertical and white",
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "target": "a black, red, white, and pink dress",
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "target": "a couple who have just got married",
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "target": "is feeding",
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "target": "pacing tiredly",
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "target": "a grand piano",
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "target": "a brown and white dog",
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "target": "is riding a bicycle in a parking lot",
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "target": "the grotto with a pink interior",
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "target": "four middle eastern children",
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "target": "Orange juice is being drunk",
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "target": "two girls with dogs",
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "target": "walking on a forest path",
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "target": "a person playing a guitar",
+  }
+]

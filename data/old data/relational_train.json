@@ -1,0 +1,1442 @@
+[
+  {
+    "premise": "Dirk Nowitski is a current NBA star playing with the Dallas Mavericks as an all-purpose forward ",
+    "source": "Dirk Nowitski plays in the NBA",
+    "target": "Dirk Nowitski is a current NBA star"
+  },
+  {
+    "premise": "In college and after , I became a fan of David Macaulay , whose books on technology include The Way Things Work ",
+    "source": "David Macaulay wrote The Way Things Work",
+    "target": "David Macaulay , whose books on technology include The Way Things Work"
+  },
+  {
+    "premise": "While at Skidmore , Smith also designed an even taller mixed-use skyscraper , the Burj Dubai , now under construction in the United Arab Emirates ",
+    "source": "Smith designed Burj Dubai",
+    "target": "Smith also designed an even taller mixed-use skyscraper , the Burj Dubai"
+  },
+  {
+    "premise": "Norman Baillie-Stewart , who was charged with passing information to the Nazi government in Germany ",
+    "source": "Germany had a Nazi government",
+    "target": "the Nazi government in Germany"
+  },
+  {
+    "premise": "Marcus Junius Brutus is portrayed by Tobias Menzies on HBO 's historical drama series Rome ",
+    "source": "Rome aired on HBO",
+    "target": "HBO 's historical drama series Rome"
+  },
+  {
+    "premise": "East again , along the Western Highway is Horsham ",
+    "source": "Horsham is located on the Western Highway",
+    "target": "along the Western Highway is Horsham"
+  },
+  {
+    "premise": "Totsuka was one of the first-generation of students to study under Professor Koshiba , the 2002 Nobel Prize Laureate in Physics , at the graduate school of the University of Tokyo ",
+    "source": "Totsuka was a student of Koshiba",
+    "target": "Totsuka was one of the first-generation of students to study under Professor Koshiba"
+  },
+  {
+    "premise": "William Booth William Booth William Booth was the founder and 1st General of The Salvation Army ",
+    "source": "William Booth served as General of The Salvation Army",
+    "target": "William Booth was the founder and 1st General of The Salvation Army"
+  },
+  {
+    "premise": "Michael Rothenberg 's songwriting and collaborations with musicians brought him to this work with multi-percussionist Bobby Thomas , Jr",
+    "source": "Bobby Thomas , Jr  was a member of Weather Report",
+    "target": "Bobby Thomas , Jr  , best known for his tenure with Weather Report"
+  },
+  {
+    "premise": "There will no doubt be another run at the bill by the administration but this setback just puts the company running the Superferry closer to a decision to moving the Ferry to another location ",
+    "source": "Superferry is in the Ferry industry",
+    "target": "puts the company running the Superferry closer to a decision to moving the Ferry to another location"
+  },
+  {
+    "premise": "The straight run of Baseball Prospectus 's PECOTA projections for the AL Central put the Tigers in 3rd place with 85 wins ",
+    "source": "Tigers compete in AL Central",
+    "target": "The straight run of Baseball Prospectus 's PECOTA projections for the AL Central put the Tigers in 3rd place"
+  },
+  {
+    "premise": "Determined to defeat Israel and regain Muslim territory , Yasser Arafat formed the al-Fatah in 1958 ",
+    "source": "Yasser Arafat founded al-Fatah",
+    "target": "Yasser Arafat formed the al-Fatah"
+  },
+  {
+    "premise": "Nichols Hall is a building on the campus of Kansas State University ",
+    "source": "Nichols Hall is located in Kansas State University",
+    "target": "Nichols Hall is a building on the campus of Kansas State University"
+  },
+  {
+    "premise": "Darwyn Cooke had just redesigned a new Selina Kyle and I clearly used his haircut for her in my version ",
+    "source": "Darwyn Cooke worked on Selina Kyle",
+    "target": "Darwyn Cooke had just redesigned a new Selina Kyle"
+  },
+  {
+    "premise": "The book penned by Joe Masteroff who also wrote Cabaret creates adorable characters with whom we can easily relate ",
+    "source": "Cabaret was written by Joe Masteroff",
+    "target": "Joe Masteroff who also wrote Cabaret"
+  },
+  {
+    "premise": "Near the end of ' 98 , Traylor left WCW and headed back to the WWF as the Big Boss Man , becoming a key member of Vince McMahon 's Corporation ",
+    "source": "Traylor was in the WWF",
+    "target": "Near the end of ' 98 , Traylor left WCW and headed back to the WWF"
+  },
+  {
+    "premise": "It 's no surprise to learn that Wise served as editor on such classics as Citizen Kane and The Magnificent Ambersons ",
+    "source": "Wise edited Citizen Kane",
+    "target": "Wise served as editor on such classics as Citizen Kane"
+  },
+  {
+    "premise": "John V",
+    "source": "Clifford Berry developed Atanasoff-Berry Computer",
+    "target": "John V Atanasoff and Clifford Berry of Iowa State University built the Atanasoff-Berry Computer"
+  },
+  {
+    "premise": "The last great work of master architect Frank Lloyd Wright , New York 's Solomon R",
+    "source": "Frank Lloyd Wright designed Solomon R Guggenheim Museum",
+    "target": "The last great work of master architect Frank Lloyd Wright , New York 's Solomon R Guggenheim Museum"
+  },
+  {
+    "premise": "Polish uses an adapted and expanded version of the Latin alphabet to this day ",
+    "source": "Polish is written in Latin alphabet",
+    "target": "Polish uses an adapted and expanded version of the Latin alphabet"
+  },
+  {
+    "premise": "Pakistan 's opening batsmen Imran Nazir has been found not guilty of breaching the ICC code of conduct during his country 's ODI against South Africa at Durban on Wednesday ",
+    "source": "Imran Nazir plays ODI",
+    "target": "during his country 's ODI"
+  },
+  {
+    "premise": "Affiliate Marketing - Some of the big networks in affiliate marketing include Commission Junction , Linkshare , ShareASale , among many others ",
+    "source": "Commission Junction is in the Affiliate Marketing industry",
+    "target": "Affiliate Marketing - Some of the big networks in affiliate marketing include Commission Junction"
+  },
+  {
+    "premise": "If Animal Collective 's musicians are bushwhackers who bury their tracks , Fleet Foxes , a quintet led by 22-year-old Robin Pecknold , are the kind who carefully carve trail markers ",
+    "source": "Robin Pecknold is a member of Fleet Foxes",
+    "target": "Fleet Foxes , a quintet led by 22-year-old Robin Pecknold"
+  },
+  {
+    "premise": "August 21 - Sancho III and Ferdinand II , the sons of King Alfonso VII of Castile , divide his kingdom between them upon his death ",
+    "source": "Ferdinand II is the son of Alfonso VII of Castile",
+    "target": "Sancho III and Ferdinand II , the sons of King Alfonso VII of Castile"
+  },
+  {
+    "premise": "On 8 April 1997 we placed 64 live traps in a 49 meter X 49 meter grid near the Westfield River in Westfield , MA ",
+    "source": "Westfield River is located in MA",
+    "target": "the Westfield River in Westfield , MA"
+  },
+  {
+    "premise": "Several thousand people in Burma ( also called Myanmar ) were severely affected as they completely lost their homes and livelihood after Cyclone Nargis devastated the area last May ",
+    "source": "Cyclone Nargis hit Myanmar",
+    "target": "( also called Myanmar ) were severely affected as they completely lost their homes and livelihood after Cyclone Nargis devastated the area"
+  },
+  {
+    "premise": "Olivia Mary De Havilland was born in Tokyo on July 1 st 1916 , and was older sister of Joan de Havilland , who later became known as Joan Fontaine ",
+    "source": "Joan Fontaine is related to Olivia Mary De Havilland",
+    "target": "Olivia Mary De Havilland was born in Tokyo on July 1 st 1916 , and was older sister of Joan de Havilland , who later became known as Joan Fontaine"
+  },
+  {
+    "premise": "Flag of the Lezgian people The Lezgins , also called the Lezgin , Lezgi , Lezgis , Lezgs , and Lezgians are an ethnic group who live mainly in southern Dagestan and northern Azerbaijan who speak the Lezgi language ",
+    "source": "Lezgi is of Lezgians ethnicity",
+    "target": "Lezgi , Lezgis , Lezgs , and Lezgians are an ethnic group"
+  },
+  {
+    "premise": "As anticipated yesterday , Apple has made debut the Apple Store with more than 500 applications dedicated all ' iPhone ",
+    "source": "Apple Store is provided by Apple",
+    "target": "Apple has made debut the Apple Store"
+  },
+  {
+    "premise": "Some months ago , I played '' MechAssault '' on this Xbox , in the meantime Microsoft had launched an additional optional service by subscription called Xbox Live ",
+    "source": "Xbox Live is provided by Microsoft",
+    "target": "Microsoft had launched an additional optional service by subscription called Xbox Live"
+  },
+  {
+    "premise": "Following the premiere of Firefly on the SciFi channel , Universal has released the second Serenity trailer ",
+    "source": "Serenity was released by Universal",
+    "target": "Universal has released the second Serenity trailer"
+  },
+  {
+    "premise": "Pershing , who became commander of the American Expeditionary Forces ( AEF ) soon developed a plan for the deployment of 260 combat squadrons to France ",
+    "source": "Pershing commanded American Expeditionary Forces",
+    "target": "Pershing , who became commander of the American Expeditionary Forces"
+  },
+  {
+    "premise": "He then served two years as an assistant at Pomona-Pitzer under Gregg Popovich , Head Coach and General Manager of the NBA San Antonio Spurs ",
+    "source": "Gregg Popovich coaches San Antonio Spurs",
+    "target": "Gregg Popovich , Head Coach and General Manager of the NBA San Antonio Spurs"
+  },
+  {
+    "premise": "The purple sulfur bacteria are classified among the Gamma Proteobacteria , a class that also includes Pseudomonas and E",
+    "source": "Gamma Proteobacteria includes Pseudomonas",
+    "target": "Gamma Proteobacteria , a class that also includes Pseudomonas"
+  },
+  {
+    "premise": "The Supermarine Spiteful is a direct development of the Spitfire using a new laminar flow wing which was hoped to offer better high speed performance ",
+    "source": "Supermarine Spiteful was developed from Spitfire",
+    "target": "The Supermarine Spiteful is a direct development of the Spitfire"
+  },
+  {
+    "premise": "In October 1999 , NJN launched New Jersey first digital broadcast signal and was one of the first ten PBS stations nationwide to broadcast digitally ",
+    "source": "NJN was an affiliate of PBS",
+    "target": "NJN launched New Jersey first digital broadcast signal and was one of the first ten PBS stations"
+  },
+  {
+    "premise": "And he will give a preview of his performance alongside the rest of the cast at the Royal Variety Performance on December 11 , which airs on BBC One six days later ",
+    "source": "Royal Variety Performance aired on BBC One",
+    "target": "Royal Variety Performance on December 11 , which airs on BBC One"
+  },
+  {
+    "premise": "According to ` autosport ' , Bruno Senna , runner-up in the GP2 Series in 2008 , will not return to Formula One 's feeder category ",
+    "source": "Bruno Senna raced in GP2 Series",
+    "target": "Bruno Senna , runner-up in the GP2 Series"
+  },
+  {
+    "premise": "Despite having only one single -- ` Crying Blood ' -- behind her , 24-year-old English songstress VV Brown is gaining critical recognition and a rapidly growing fan-base for her eclectic sound ",
+    "source": "VV Brown released Crying Blood",
+    "target": "Despite having only one single -- ` Crying Blood ' -- behind her , 24-year-old English songstress VV Brown"
+  },
+  {
+    "premise": "At least 40 sites are falsely announcing Barack Obama 's resignation as President of the United States ",
+    "source": "Barack Obama served as President of the United States",
+    "target": "Barack Obama 's resignation as President of the United States"
+  },
+  {
+    "premise": "Dr",
+    "source": "Paul replaced Robert R Casey",
+    "target": "Dr Paul was first elected to the House in a 1976 special election to replace Robert R Casey"
+  },
+  {
+    "premise": "World Champion Paolo Bettini is riding at the front as is the Lion King himself , Mario Cipolini , back from retirement and in the Rock Racing kit ",
+    "source": "Mario Cipolini rode for Rock Racing",
+    "target": "Mario Cipolini , back from retirement and in the Rock Racing kit"
+  },
+  {
+    "premise": "Later in the 50s , Carter also began to score television shows , most notably , M Squad , Banyon and Ironside ",
+    "source": "M Squad was composed by Carter",
+    "target": "Carter also began to score television shows , most notably , M Squad"
+  },
+  {
+    "premise": "The official celebration of Queen Elizabeth 's twenty-five year reign as Queen of Canada was marked on Parliament Hill in November 1977 ",
+    "source": "Queen Elizabeth served as Queen",
+    "target": "Queen Elizabeth 's twenty-five year reign as Queen of Canada"
+  },
+  {
+    "premise": "WWE saw what was happening with Balls and scrapped his angle with Kelly Kelly but tried to let him hang around and work it out ",
+    "source": "Kelly Kelly was in the WWE",
+    "target": "WWE saw what was happening with Balls and scrapped his angle with Kelly Kelly"
+  },
+  {
+    "premise": "Top opposition leader Elisa Carrio says her Civic Coalition party will oppose the measure since the government only wants to `` loot '' pensioners ' funds ",
+    "source": "Elisa Carrio was a member of Civic Coalition",
+    "target": "Elisa Carrio says her Civic Coalition party will oppose the measure"
+  },
+  {
+    "premise": "Andretti is one of the few very experienced 30-somethings in CART ",
+    "source": "Andretti raced in CART",
+    "target": "Andretti is one of the few very experienced 30-somethings in CART"
+  },
+  {
+    "premise": "On Christmas Eve 1968 Frank Borman , James Lovell and William Anders , astronauts aboard Apollo 8 circling the moon , drew us into their experience by televising what they saw back to earth ",
+    "source": "James Lovell flew aboard Apollo 8",
+    "target": "Frank Borman , James Lovell and William Anders , astronauts aboard Apollo 8"
+  },
+  {
+    "premise": "Also of note in the Unblack world is Kekal , a band formed in 1995 in the unlikely location of Jakarta , Indonesia ",
+    "source": "Kekal is from Jakarta",
+    "target": "Kekal , a band formed in 1995 in the unlikely location of Jakarta"
+  },
+  {
+    "premise": "The only time I ve liked Chris Matthews -LSB- host of MSNBC s Hardball -RSB- was when he flat out told Ann to shut up that she was just making things up ",
+    "source": "Chris Matthews was the host of Hardball",
+    "target": "Chris Matthews -LSB- host of MSNBC s Hardball -RSB-"
+  },
+  {
+    "premise": "Cyclone Nargis leaves over 22,000 dead and one million homeless in Myanmar ",
+    "source": "Cyclone Nargis hit Myanmar",
+    "target": "Cyclone Nargis leaves over 22,000 dead and one million homeless in Myanmar"
+  },
+  {
+    "premise": "A 20-year record industry veteran , Ian Dickson has taken the Australian television audience by storm as the bawdy judge on Australian Idol ",
+    "source": "Ian Dickson was a judge on Australian Idol",
+    "target": "Ian Dickson has taken the Australian television audience by storm as the bawdy judge on Australian Idol"
+  },
+  {
+    "premise": "Dan Kennedy is ten years old and wants a black Gibson Les Paul guitar , the kind Peter Frampton plays ",
+    "source": "Peter Frampton played a Gibson Les Paul",
+    "target": "a black Gibson Les Paul guitar , the kind Peter Frampton plays"
+  },
+  {
+    "premise": "USS R-2 , a 569-ton R-1 class submarine built at Quincy , Massachusetts , was commissioned in late January 1919 ",
+    "source": "USS R-2 was built at Quincy",
+    "target": "USS R-2 , a 569-ton R-1 class submarine built at Quincy"
+  },
+  {
+    "premise": "In 1908 Baron von Wolff , who had arrived in Namibia with the German '' Schutztruppe '' , had this building erected by the architect Wilhelm Sander , who also built the Heinitzburg in Windhoek ",
+    "source": "Heinitzburg was built by Wilhelm Sander",
+    "target": "Wilhelm Sander , who also built the Heinitzburg"
+  },
+  {
+    "premise": "Journey and Steve Perry gained new attention in the 2000s due to Randy Jackson , who since his Journey involvement had become a successful recording industry figure and then an American Idol judge ",
+    "source": "Randy Jackson was a judge on American Idol",
+    "target": "Randy Jackson , who since his Journey involvement had become a successful recording industry figure and then an American Idol judge"
+  },
+  {
+    "premise": "While it did not equal the strength of U",
+    "source": "Luzon Campaign was a part of Pacific war",
+    "target": "the Luzon Campaign was by far the largest of the Pacific war"
+  },
+  {
+    "premise": "Among them was a posthumous Medal of Honor awarded to PFC Sadao S",
+    "source": "Sadao S Munemori awarded Medal of Honor",
+    "target": "Among them was a posthumous Medal of Honor awarded to PFC Sadao S Munemori"
+  },
+  {
+    "premise": "With a production of the smash hit musical Evita - The first of a new generation of musicals written by Andrew Lloyd Webber and Tim Rice and starring Elaine Paige ",
+    "source": "Evita was written by Tim Rice",
+    "target": "musical Evita - The first of a new generation of musicals written by Andrew Lloyd Webber and Tim Rice"
+  },
+  {
+    "premise": "Microsoft 's vision , in large part for its own survival , is to showcase Microsoft Office as the overall foundation for its developers to create new and value-added tools for Microsoft Office ",
+    "source": "Microsoft produces Microsoft Office",
+    "target": "Microsoft 's vision , in large part for its own survival , is to showcase Microsoft Office"
+  },
+  {
+    "premise": "The peak of his recognition was reached when he received the Nobel Prize for Medicine , sharing it with Konrad Lorenz and Karl von Frisch ",
+    "source": "Karl von Frisch recieved Nobel Prize for Medicine",
+    "target": "when he received the Nobel Prize for Medicine , sharing it with Konrad Lorenz and Karl von Frisch"
+  },
+  {
+    "premise": "The term National Guard means the Army National Guard and the Air National Guard ",
+    "source": "Army National Guard is part of National Guard",
+    "target": "National Guard means the Army National Guard and the Air National Guard"
+  },
+  {
+    "premise": "Lady 's Secret -- She beat the boys and was Horse of the Year in 1986 ",
+    "source": "Lady 's Secret awarded Horse of the Year",
+    "target": "Lady 's Secret was Horse of the Year in 1086"
+  },
+  {
+    "premise": "He and Ball were the parents of actress Lucie Arnaz ( born 1951 ) and actor Desi Arnaz , Jr",
+    "source": "Lucie Arnaz is the child of Ball",
+    "target": "He and Ball were the parents of actress Lucie Arnaz"
+  },
+  {
+    "premise": "At a Battle of Talas an Arab army decisively defeated a Tang Dynasty force and for a next many centuries Middle Eastern influences would dominate the vicinity ",
+    "source": "Tang Dynasty was defeated in Battle of Talas",
+    "target": "At a Battle of Talas an Arab army decisively defeated a Tang Dynasty force"
+  },
+  {
+    "premise": "Coalition of the Left and Progress ( Synaspismos left-wing ) ; party leader Alexis Tsipras ",
+    "source": "Alexis Tsipras was a member of Coalition of the Left and Progress",
+    "target": "Coalition of the Left and Progress ( Synaspismos left-wing ) ; party leader Alexis Tsipras"
+  },
+  {
+    "premise": "Champ Car s newest team , Pacific Coast Motorsports and their drivers , American Alex Figge and Scot Ryan Dalziel completed their first Champ Car test Tuesday at the Motorsports Ranch in Houston ",
+    "source": "Ryan Dalziel raced in Champ Car",
+    "target": "Scot Ryan Dalziel completed their first Champ Car test"
+  },
+  {
+    "premise": "He will be seen in the upcoming film Beyond City Limits , which also stars Alyson Hannigan ( Buffy ' s Willow ) ",
+    "source": "Willow was played by Alyson Hannigan",
+    "target": "which also stars Alyson Hannigan ( Buffy ' s Willow )"
+  },
+  {
+    "premise": "I read that Brad DeLong ( prof at Berkeley ) has written his management to remove Yoo ",
+    "source": "Brad DeLong taught at Berkeley",
+    "target": "Brad DeLong ( prof at Berkeley )"
+  },
+  {
+    "premise": "The Jayhawks play Kansas State on Tuesday night at home , where they 've won 33 straight , in their Big 12 opener ",
+    "source": "Jayhawks competes in the Big 12",
+    "target": "The Jayhawks play Kansas State on Tuesday night at home , where they 've won 33 straight , in their Big 12 opener"
+  },
+  {
+    "premise": "In 1918 , a brand new destroyer was named the USS Schenck , in honor of the service of Admiral James Schenck to the United States Navy ",
+    "source": "USS Schenck is named after James Schenck",
+    "target": "was named the USS Schenck , in honor of the service of Admiral James Schenck"
+  },
+  {
+    "premise": "Vernon Smith ( whom you 've already met ) and a psychologist ( of all things ) , Daniel Kahneman , received the 2002 Nobel Prize in Economics for their pioneering contributions to experimental economics ",
+    "source": "Daniel Kahneman recieved Nobel Prize in Economics",
+    "target": "Daniel Kahneman , received the 2002 Nobel Prize in Economics"
+  },
+  {
+    "premise": "Alabama Colleges/University The University of Alabama ( also known as Alabama , UA or colloquially as ' Bama ) is a public coeducational university located in Tuscaloosa , Alabama , USA ",
+    "source": "Tuscaloosa is a city in Alabama",
+    "target": "located in Tuscaloosa"
+  },
+  {
+    "premise": "Previously , he was a faculty member at the Massachusetts Institute of Technology ( MIT ) for 12 years where he was Associate Director of Research at the MIT Media Lab ",
+    "source": "MIT heads MIT Media Lab",
+    "target": "at the Massachusetts Institute of Technology ( MIT ) for 12 years where he was Associate Director of Research at the MIT Media Lab"
+  },
+  {
+    "premise": "Mali Tourist Information , informs that Air France flies daily from Paris - Charles de Gaulle to Bamako ( and return ) ",
+    "source": "Air France flies from Charles de Gaulle",
+    "target": "Air France flies daily from Paris - Charles de Gaulle"
+  },
+  {
+    "premise": "A new government was formed by Democrats of the Left ( PDS ) leader and former-communist Massimo D'Alema ",
+    "source": "Massimo D'Alema was a leader of Democrats of the Left",
+    "target": "Democrats of the Left ( PDS ) leader and former-communist Massimo D'Alema"
+  },
+  {
+    "premise": "Spielberg 's live-action and animation talents also traveled to network , cable , and syndicated television shows , producing and directing several shows including the Tiny Toon Adventures animated series ( 1990-current ) and Amazing Stories ( 1985-1987 ) ",
+    "source": "Spielberg procuduced Tiny Toon Adventures",
+    "target": "Spielberg 's live-action and animation talents also traveled to network , cable , and syndicated television shows , producing and directing several shows including the Tiny Toon Adventures animated series"
+  },
+  {
+    "premise": "Gain optimal performance on Intel processors from your Linux * applications by using Intel C++ Compiler for Linux ",
+    "source": "Intel C++ Compiler runs on Linux",
+    "target": "using Intel C++ Compiler for Linux"
+  },
+  {
+    "premise": "It does n't helpt that Spyglass was the production company behind The Invisible , Stay Alive and a shrew of other terrible films ( although they did bring us THE SIXTH SENSE ) ",
+    "source": "The Invisible was released by Spyglass",
+    "target": "Spyglass was the production company behind The Invisible"
+  },
+  {
+    "premise": "The museum 's centerpiece is the fully-restored Gemini 12 spacecraft flown by NASA astronauts Jim Lovell and Buzz Aldrin ",
+    "source": "Jim Lovell flew on Gemini 12",
+    "target": "the fully-restored Gemini 12 spacecraft flown by NASA astronauts Jim Lovell"
+  },
+  {
+    "premise": "Albert Schweitzer ( 1875-1965 ) , French clergyman , physician , and musician who received the Nobel Peace Prize in 1952 for his missionary work in French Equatorial Africa ",
+    "source": "Albert Schweitzer recieved Nobel Peace Prize",
+    "target": "Albert Schweitzer ( 1875-1965 ) , French clergyman , physician , and musician who received the Nobel Peace Prize"
+  },
+  {
+    "premise": "WrestleMania : The Album ( 1993 ) This album was produced by Simon Cowell , the judge on American Idol ",
+    "source": "Simon Cowell was a judge on American Idol",
+    "target": "Simon Cowell , the judge on American Idol"
+  },
+  {
+    "premise": "The largest among them are Pluto and its moon Charon , respectively 2400 km and 1200 km in diameter ; the third largest among KBOs is Varuna , with an estimated diameter of about 900 km ",
+    "source": "Pluto is classified as KBOs",
+    "target": "The largest among them are Pluto and its moon Charon , respectively 2400 km and 1200 km in diameter ; the third largest among KBOs is Varuna"
+  },
+  {
+    "premise": "Dr Anthony Fauci is the director of NIAID who oversees many medical research projects and budget approvals",
+    "source": "Anthony Fauci works at NIAID",
+    "target": "Dr Anthony Fauci is the director of NIAID"
+  },
+  {
+    "premise": "Apple has encountered significant flak for its approach to the App Store , where a variety of programs have been denied under what many consider arbitrary reasoning ",
+    "source": "App Store is provided by Apple",
+    "target": "Apple has encountered significant flak for its approach to the App Store"
+  },
+  {
+    "premise": "The city of San Francisco is known to be the traditional central point of the San Francisco Bay Area and also forms part of the greater San Jose - San Francisco-Oakland Combined Statistical Area ",
+    "source": "city of San Francisco is situated in San Francisco Bay Area",
+    "target": "The city of San Francisco is known to be the traditional central point of the San Francisco Bay Area"
+  },
+  {
+    "premise": "The bill is the handiwork of Davis 's successor in Congress , Rep",
+    "source": "Robert Wittman replaced Davis",
+    "target": "Davis 's successor in Congress , Rep Robert Wittman"
+  },
+  {
+    "premise": "This is because both English and German both belong to the Germanic family of languages , whereas the Romance languages ( French , Italian and Spanish ) do not ",
+    "source": "German belongs to the Germanic family",
+    "target": "English and German both belong to the Germanic family of languages"
+  },
+  {
+    "premise": "The Naval Service also includes the Royal Marines , the Royal Naval Reserve , etc",
+    "source": "Royal Marines are used in Naval Service",
+    "target": "The Naval Service also includes the Royal Marines"
+  },
+  {
+    "premise": "The WEC is expected to disband its welterweight division and Hendricks ' matchup against Serdyukov could be a final evaluation as to whether the former Oklahoma State college wrestling standout is ready to move onto the UFC ",
+    "source": "Hendricks attended Oklahoma State",
+    "target": "Hendricks ' matchup against Serdyukov could be a final evaluation as to whether the former Oklahoma State college wrestling standout is ready"
+  },
+  {
+    "premise": "Surgut Bridge : the longest one-tower cable-stayed bridge in the world , crossing the Ob River in Siberia ",
+    "source": "Surgut Bridge crosses Ob River",
+    "target": "Surgut Bridge : the longest one-tower cable-stayed bridge in the world , crossing the Ob River"
+  },
+  {
+    "premise": "Nintendo had very wisely taken advantage of the video game crash by plugging the gap in early 1985 with its new Famicom or Nintendo Entertainment System as it was known in America ",
+    "source": "Nintendo produces Nintendo Entertainment System",
+    "target": "Nintendo had very wisely taken advantage of the video game crash by plugging the gap in early 1985 with its new Famicom or Nintendo Entertainment System"
+  },
+  {
+    "premise": "There was renewed speculation about Jobs 's health last month when the Apple co-founder announced that he would not be giving the keynote address at the Macworld Conference and Expo held in San Francisco last week ",
+    "source": "Jobs works for Apple",
+    "target": "about Jobs 's health last month when the Apple co-founder announced"
+  },
+  {
+    "premise": "This image provided by NOAA taken at 6:32 p",
+    "source": "Hurricane Gustav hit Cuba",
+    "target": "shows Hurricane Gustav , moving through Cuba"
+  },
+  {
+    "premise": "The Sandringham estate in Norfolk was purchased by Queen Victoria for # 22,000 in 1863 , intended as the home of her eldest son and heir , Albert Edward , the future Edward VII ",
+    "source": "Queen Victoria is the mother of Albert Edward",
+    "target": "by Queen Victoria for # 22,000 in 1863 , intended as the home of her eldest son and heir , Albert Edward"
+  },
+  {
+    "premise": "Kiwi , Red Bull Junior driver , Brendon Hartley capped an excellent weekend for Carlin Motorsport by winning rounds 11 & 12 of the British F3 championship at Thruxton ",
+    "source": "Brendon Hartley raced in British F3",
+    "target": "Brendon Hartley capped an excellent weekend for Carlin Motorsport by winning rounds 11 & 12 of the British F3 championship"
+  },
+  {
+    "premise": "Once the Sixers landed , coach Maurice Cheeks cancelled practice , although the team did meet to watch film ",
+    "source": "Maurice Cheeks coaches Sixers",
+    "target": "Once the Sixers landed , coach Maurice Cheeks cancelled practice"
+  },
+  {
+    "premise": "Kim Jong-Il usurped power in 1994 , succeeding his father Kim Il - Sung ",
+    "source": "Kim Jong-Il succeeded Kim Il - Sung",
+    "target": "Kim Jong-Il usurped power in 1994 , succeeding his father Kim Il - Sung"
+  },
+  {
+    "premise": "Sheldon Souray of the Edmonton Oilers , Jarome Iginla of the Calgary Flames and Roberto Luongo of the Vancouver Canucks were among 15 players added to the NHL 's Western Conference all-star team Wednesday ",
+    "source": "Roberto Luongo plays in the NHL",
+    "target": "Roberto Luongo of the Vancouver Canucks were among 15 players added to the NHL 's Western Conference all-star team"
+  },
+  {
+    "premise": "But Jamaica did not advance to the final stages of the 2010 CONCACAF World Cup qualifying , as it fell to Mexico based on goal difference ",
+    "source": "Jamaica is a member of CONCACAF",
+    "target": "Jamaica did not advance to the final stages of the 2010 CONCACAF World Cup qualifying"
+  },
+  {
+    "premise": "ABC aired a repeat of Grey 's Anatomy and an all-new Wife Swap from 8-10 and 20/20 built on that and did was second place at 10pm ",
+    "source": "Wife Swap airs on ABC",
+    "target": "ABC aired a repeat of Grey 's Anatomy and an all-new Wife Swap"
+  },
+  {
+    "premise": "Final results gave the most seats to the leftist DSP , followed by the far-right Nationalist Action Party ( MHP ) led by Mr",
+    "source": "Devlet Bahceli was a leader of MHP",
+    "target": "( MHP ) led by Mr Devlet Bahceli"
+  },
+  {
+    "premise": "We broke the news a few weeks ago saying WWE had plans to induct Ricky `` The Dragon '' Steamboat into their Hall of Fame this year ",
+    "source": "Ricky `` The Dragon '' Steamboat was in the WWE",
+    "target": "WWE had plans to induct Ricky `` The Dragon '' Steamboat into their Hall of Fame"
+  },
+  {
+    "premise": "Steve Stricker snatched the lead from Pat Perez -- and set several PGA Tour scoring records -- with a 10-under 62 in the fourth round of the Bob Hope Classic on Saturday ",
+    "source": "Steve Stricker played on PGA Tour",
+    "target": "Steve Stricker snatched the lead from Pat Perez -- and set several PGA Tour scoring records"
+  },
+  {
+    "premise": "Lee 's musical career has sometimes been eclipsed by his very public personal life , which included tumultuous marriages to actress Heather Locklear ( 1986-93 ) and actress/pinup Pamela Anderson ( 1995-98 ) ",
+    "source": "Heather Locklear was married to Lee",
+    "target": "Lee 's musical career has sometimes been eclipsed by his very public personal life , which included tumultuous marriages to actress Heather Locklear"
+  },
+  {
+    "premise": "He went on to earn a master 's degree at the Massachusetts Institute of Technology ( MIT ) in 1939 and also graduated from the Army 's Ordnance Schools at Aberdeen Proving Ground during 1939 and 1940 ",
+    "source": "Aberdeen Proving Ground was a part of Army",
+    "target": "the Army 's Ordnance Schools at Aberdeen Proving Ground"
+  },
+  {
+    "premise": "Michiel de Vaan : Etymological Dictionary of Latin and the other Italic Languages ",
+    "source": "Latin belongs to the Italic Languages family",
+    "target": "Latin and the other Italic Languages"
+  },
+  {
+    "premise": "The core of the Backstreet Boys was comprised of cousins Kevin Richardson and Brian Littrell , both of whom hailed from Lexington , KY ",
+    "source": "Kevin Richardson played with Backstreet Boys",
+    "target": "The core of the Backstreet Boys was comprised of cousins Kevin Richardson and Brian Littrell"
+  },
+  {
+    "premise": "He was presented his award by Kendrick Frazier , editor of the Skeptical Inquirer ",
+    "source": "Kendrick Frazier was the editor of Skeptical Inquirer",
+    "target": "Kendrick Frazier , editor of the Skeptical Inquirer"
+  },
+  {
+    "premise": "The Joker 's first appearance came in the Batman 's first solo comic book ( the Dark Knight had been appearing for a year in the pages of Detective Comics ) ",
+    "source": "Batman appears in Detective Comics",
+    "target": "in the Batman 's first solo comic book ( the Dark Knight had been appearing for a year in the pages of Detective Comics )"
+  },
+  {
+    "premise": "Google CEO Eric Schmidt said on April 17 that there is absolutely no merit to the accusation by Microsoft and others that Google 's acquisition of DoubleClick for $ 3",
+    "source": "Eric Schmidt works for Google",
+    "target": "Google CEO Eric Schmidt"
+  },
+  {
+    "premise": "Astronauts Frank Borman and James A",
+    "source": "Frank Borman flew aboard Gemini VII",
+    "target": "during their 14 day Gemini VII mission"
+  },
+  {
+    "premise": "Mr Lim Chuan Poh , Chairman of the Agency for Science , Technology & Research ( A * STAR ) will give the Closing Address on 23 January ",
+    "source": "Lim Chuan Poh is the head of A * STAR",
+    "target": "Mr Lim Chuan Poh , Chairman of the Agency for Science , Technology & Research ( A * STAR )"
+  },
+  {
+    "premise": "After medical school he completed a transitional internship year of medicine and surgery through Tufts University School of Medicine affiliate , The Carney Hospital , in Boston , Massachusetts ",
+    "source": "Carney Hospital is affiliated with Tufts University School of Medicine",
+    "target": "through Tufts University School of Medicine affiliate , The Carney Hospital"
+  },
+  {
+    "premise": "Running from Christchurch on New Zealand Pacific Coast , through the Southern Alps to Greymouth on the shores of the Tasman Sea , the TranzAlpine is New Zealand only coast to coast railway ",
+    "source": "TranzAlpine ends at Greymouth",
+    "target": "through the Southern Alps to Greymouth on the shores of the Tasman Sea , the TranzAlpine is New Zealand only coast to coast railway"
+  },
+  {
+    "premise": "Not surprisingly , the LandCruiser 100 Series took the title , followed closely by the Nissan Patrol 4",
+    "source": "Nissan Patrol is powered by Turbo Diesel",
+    "target": "by the Nissan Patrol 42 L Turbo Diesel"
+  },
+  {
+    "premise": "If Pacquiao decides to keep the Super Featherweight title he must fight Humberto Soto with the winner fighting Francisco Lorenzo ",
+    "source": "Humberto Soto fights at Super Featherweight",
+    "target": "If Pacquiao decides to keep the Super Featherweight title he must fight Humberto Soto"
+  },
+  {
+    "premise": "Their formal partner , the Honda has declined to join the project but came out with the similar Honda CR-V in 1997 ",
+    "source": "Honda produces Honda CR-V",
+    "target": "the Honda has declined to join the project but came out with the similar Honda CR-V"
+  },
+  {
+    "premise": "The big Ferris wheel called the London Eye , plus a Dali sculpture ",
+    "source": "London Eye is a Ferris wheel",
+    "target": "The big Ferris wheel called the London Eye"
+  },
+  {
+    "premise": "Set sail from beautiful Copenhagen , Denmark , for this 10-day Baltic cruise , June 12 - 22 aboard Holland America 's luxurious ms Eurodam ",
+    "source": "Eurodam is operated by Holland America",
+    "target": "Holland America 's luxurious ms Eurodam"
+  },
+  {
+    "premise": "Evil , Fat Bastard , or the Cat in the Hat , Myers ' characters are now cultural icons ",
+    "source": "Fat Bastard was played by Myers",
+    "target": "Evil , Fat Bastard , or the Cat in the Hat , Myers ' characters"
+  },
+  {
+    "premise": "Sydney Airport is a major hub of Qantas Airlines ",
+    "source": "Qantas Airlines flies from Sydney Airport",
+    "target": "Sydney Airport is a major hub of Qantas Airlines"
+  },
+  {
+    "premise": "Michigan State was playing for a share of the Big Ten title , but was soundly defeated by the team from Happy Valley , 49-18 ",
+    "source": "Michigan State competes in the Big Ten",
+    "target": "Michigan State was playing for a share of the Big Ten title"
+  },
+  {
+    "premise": "Papa Roach hits the clubs to debut songs from its forthcoming ' Getting Away With Murder ",
+    "source": "Getting Away With Murder is an album by Papa Roach",
+    "target": "Papa Roach hits the clubs to debut songs from its forthcoming ' Getting Away With Murder"
+  },
+  {
+    "premise": "EUROFOR is based in Florence , Italy , and became operational in 1998 ",
+    "source": "Florence is home to EUROFOR",
+    "target": "EUROFOR is based in Florence"
+  },
+  {
+    "premise": "About Spotswood High School : Spotswood High School fields over 20 interscholastic teams ( includes varsity and junior varsity ) that compete in AA Region III , Massanutten District Division 4 ",
+    "source": "Spotswood High School competes in the AA Region III",
+    "target": "Spotswood High School fields over 20 interscholastic teams ( includes varsity and junior varsity ) that compete in AA Region III"
+  },
+  {
+    "premise": "John Chavis is a tremendous coach who has had a great deal of success over a long period of time in the SEC , LSU coach Les Miles said ",
+    "source": "John Chavis is in the SEC",
+    "target": "John Chavis is a tremendous coach who has had a great deal of success over a long period of time in the SEC"
+  },
+  {
+    "premise": "He was accepted for postgraduate work at Ernest Rutherford 's famed Cavendish Laboratory in Cambridge , working under the eminent but aging J",
+    "source": "JJ Thomson works at Cambridge",
+    "target": "in Cambridge , working under the eminent but aging JJ Thomson"
+  },
+  {
+    "premise": "At the time , the ABA was working to dissuade congressional leaders from approving the Credit Cardholders Bill of Rights , a bill the House ultimately passed in September ",
+    "source": "House approved Credit Cardholders Bill of Rights",
+    "target": "the Credit Cardholders Bill of Rights , a bill the House ultimately passed in September"
+  },
+  {
+    "premise": "G-A-Y is London 's ( and some say Europe 's ) largest gay and lesbian party ",
+    "source": "London is located on Europe",
+    "target": "London 's ( and some say Europe 's )"
+  },
+  {
+    "premise": "Studies into Mount Saint Helens , situated in the volcanic region of the Cascade Mountains in Washington State , USA , began mainly in the late 1930 's by Verhoogan ( Geological Survey Prof",
+    "source": "Mount Saint Helens is located in Cascade Mountains",
+    "target": "Mount Saint Helens , situated in the volcanic region of the Cascade Mountains"
+  },
+  {
+    "premise": "Khamenei was appointed to the powerful post of Tehran 's Friday Prayer Leader by Ayatollah Khomeini in the autumn of 1979 , after the resignation of Ayatollah Hossein-Ali Montazeri from the post ",
+    "source": "Khamenei appointed by Ayatollah Khomeini",
+    "target": "Khamenei was appointed to the powerful post of Tehran 's Friday Prayer Leader by Ayatollah Khomeini"
+  },
+  {
+    "premise": "Talal Asad is Distinguished Professor of Anthropology at the City University of New York Graduate Center ",
+    "source": "Talal Asad works in the field of Anthropology",
+    "target": "Talal Asad is Distinguished Professor of Anthropology"
+  },
+  {
+    "premise": "Situated on the banks of the legendary Suwannee River , this center honors the memory of American composer Stephen Foster , who wrote '' Old Folks at Home , '' the song that made the river famous ",
+    "source": "Old Folks at Home was composed by Stephen Foster",
+    "target": "Stephen Foster , who wrote '' Old Folks at Home , ''"
+  },
+  {
+    "premise": "This dovetails with the definition Scott McCloud gives for art in his book , Understanding Comics : Anything done by humans that is n't done for the purposes of survival or reproduction is art ",
+    "source": "Scott McCloud created Understanding Comics",
+    "target": "Scott McCloud gives for art in his book , Understanding Comics"
+  },
+  {
+    "premise": "Nahuan languages subgroup of the Uto-Aztecan languages , including Pochutec , Nahua , and Pipil ; they are sometimes considered a subfamily coordinate with Shoshonean and Sonoran , and sometimes included in the Sonoran subfamily ",
+    "source": "Uto-Aztecan languages includes Nahua",
+    "target": "Nahuan languages subgroup of the Uto-Aztecan languages"
+  },
+  {
+    "premise": "Speaking of Palin 's giving birth to controversial babies , Bristol Palin , 18 , and her boyfriend Levi Johnston are now parents to a little boy named Tripp Easton Mitchell Johnston ",
+    "source": "Levi Johnston is Bristol Palin's partner",
+    "target": "Bristol Palin , 18 , and her boyfriend Levi Johnston"
+  },
+  {
+    "premise": "Said 's most influential book , Orientalism , was heavily influenced by Foucault 's theory of discourse and its power over people ",
+    "source": "Said was influenced by Foucault",
+    "target": "Said 's most influential book , Orientalism , was heavily influenced by Foucault 's theory of discourse"
+  },
+  {
+    "premise": "Gordon Murray , the designer of the 385 km/h McLaren F1 , is planning a New Age supercar , featherlight with a tiny engine , as the ultimate manifestation of his philosophy for environment-friendly cars of the future ",
+    "source": "Gordon Murray designed McLaren F1",
+    "target": "Gordon Murray , the designer of the 385 km/h McLaren F1"
+  },
+  {
+    "premise": "Alcoa was founded in 1888 in Pittsburgh , Pennsylvania , under the name The Pittsburgh Reduction Company ",
+    "source": "Alcoa was founded in Pittsburgh",
+    "target": "Alcoa was founded in 1888 in Pittsburgh"
+  },
+  {
+    "premise": "London 's airports , especially Heathrow , have long been extremely sensitive to the terrorist threat ",
+    "source": "Heathrow is located in London",
+    "target": "London 's airports , especially Heathrow"
+  },
+  {
+    "premise": "In the northern region , Northern Mariana Islands is a commonwealth and U",
+    "source": "Northern Mariana Islands is part of US",
+    "target": "Northern Mariana Islands is a commonwealth and US territory"
+  },
+  {
+    "premise": "Their partnership ended in 1999 and Semenovich teamed up with Roman Kostomorov for one season ",
+    "source": "Semenovich teamed up with Roman Kostomorov",
+    "target": "Semenovich teamed up with Roman Kostomorov"
+  },
+  {
+    "premise": "Tata Motors announced the launch of the face lifted Indigo and Indigo Marina range ",
+    "source": "Tata Motors produces Indigo",
+    "target": "Tata Motors announced the launch of the face lifted Indigo"
+  },
+  {
+    "premise": "By 1996 Walter Murch accepted the first Editing Oscar awarded to a digitally-edited film ( The English Patient ) , which he cut on an Avid ",
+    "source": "Walter Murch edited The English Patient",
+    "target": "Walter Murch accepted the first Editing Oscar awarded to a digitally-edited film ( The English Patient )"
+  },
+  {
+    "premise": "Courtesy of Marvel Comics , CBR News brings you a first look at the January 7th shipping '' Invincible Iron Man '' # 9 by writer Matt Fraction and artist Salvador Larroca , a '' Dark Reign '' tie-in ",
+    "source": "Salvador Larroca worked on Invincible Iron Man",
+    "target": "'' Invincible Iron Man '' # 9 by writer Matt Fraction and artist Salvador Larroca"
+  },
+  {
+    "premise": "The New York Dolls , inarguably one of the most influential American rock bands of all time , are set to release their first collection of new tunes since 1974 's '' Too Much Too Soon ",
+    "source": "New York Dolls released Too Much Too Soon",
+    "target": "are set to release their first collection of new tunes since 1974 's '' Too Much Too Soon"
+  },
+  {
+    "premise": "The Jade Buddha Temple , which is located in northwest Shanghai , is the most popular Buddhist temple in this city , drawing both worshippers and tourists ",
+    "source": "Jade Buddha Temple serves Buddhist",
+    "target": "The Jade Buddha Temple , which is located in northwest Shanghai , is the most popular Buddhist temple"
+  },
+  {
+    "premise": "In December 1862 , General Burnside , newly appointed to command the Army of the Potomac , planned to seize and secure the town of Fredericksburg , and then take the Confederate capital of Richmond ",
+    "source": "General Burnside commanded Army of the Potomac",
+    "target": "General Burnside , newly appointed to command the Army of the Potomac"
+  },
+  {
+    "premise": "Beslan , a town of about 30,000 , is in North Ossetia , near the republic of Chechnya , where separatist rebels have been fighting Russian forces since 1999 ",
+    "source": "Beslan is a town in North Ossetia",
+    "target": "Beslan , a town of about 30,000 , is in North Ossetia"
+  },
+  {
+    "premise": "The Library of Congress web site contains the letterbooks of George Washington while he was Commander in Chief of the Continental Army during the Revolution ",
+    "source": "George Washington commanded Continental Army",
+    "target": "George Washington while he was Commander in Chief of the Continental Army"
+  },
+  {
+    "premise": "Apollo 13 was the 3rd scheduled lunar launch , carrying Jim Lovell , Fred Haize , & Jack Swigert to the moon ",
+    "source": "Jack Swigert flew on Apollo 13",
+    "target": "Apollo 13 was the 3rd scheduled lunar launch , carrying Jim Lovell , Fred Haize , & Jack Swigert"
+  },
+  {
+    "premise": "Chinese President Hu Jintao and his Russian counterpart Dmitry Medvedev exchanged congratulatory messages on New Year 's eve on December 31 , 2008 , and announced the start of `` the Year of the Chinese and Russian Languages ",
+    "source": "Dmitry Medvedev represented Russian",
+    "target": "Russian counterpart Dmitry Medvedev"
+  },
+  {
+    "premise": "Part '' American Idol , '' part rehab , '' Redemption Song '' is hosted by WWE star and rock singer Chris Jericho ",
+    "source": "Chris Jericho was in the WWE",
+    "target": "is hosted by WWE star and rock singer Chris Jericho"
+  },
+  {
+    "premise": "The AIG Japan Open Tennis Championships were held in Tokyo September 29 to October 5 at the Ariake Colosseum and Ariake Tennis Forest Park , one of the proposed venues of Tokyo 's 2016 Summer Olympic Games bid ",
+    "source": "AIG Japan Open Tennis Championships plays at Ariake Colosseum",
+    "target": "The AIG Japan Open Tennis Championships were held in Tokyo September 29 to October 5 at the Ariake Colosseum"
+  },
+  {
+    "premise": "Heikki Kovalainen ca n't wait for his first race under the Vodafone McLaren Mercedes banner , saying his motivation to win is even higher in 2008 ",
+    "source": "Heikki Kovalainen drives for Vodafone McLaren Mercedes",
+    "target": "Heikki Kovalainen ca n't wait for his first race under the Vodafone McLaren Mercedes banner"
+  },
+  {
+    "premise": "A member of the national Cristo Rey Network of schools , Verbum Dei is committed preferentially to serving students and families who could not afford otherwise the opportunity of a private , parochial college preparatory education ",
+    "source": "Verbum Dei is affiliated with Cristo Rey Network",
+    "target": "A member of the national Cristo Rey Network of schools , Verbum Dei"
+  },
+  {
+    "premise": "Location : in County Limerick in the the town of Templeglantine , 9 Km ",
+    "source": "Templeglantine is a city in County Limerick",
+    "target": "in County Limerick in the the town of Templeglantine"
+  },
+  {
+    "premise": "There are also 7 Ford recalls '' 3 defect investigations '' 138 TSBs '' for the Ford Mustang ",
+    "source": "Ford produces Ford Mustang",
+    "target": "7 Ford recalls '' 3 defect investigations '' 138 TSBs '' for the Ford Mustang"
+  },
+  {
+    "premise": "Ooh , that new show on HBO -- True Blood ",
+    "source": "True Blood aired on HBO",
+    "target": "that new show on HBO -- True Blood"
+  },
+  {
+    "premise": "Game Boy Advance has but one title from Nintendo this fall , and -- you did n't see this coming -- it 's a Pokemon game ",
+    "source": "Pokemon is published by Nintendo",
+    "target": "one title from Nintendo this fall , and -- you did n't see this coming -- it 's a Pokemon game"
+  },
+  {
+    "premise": "BBC One introduces the brand new Wallace & Gromit ident where the family favourites get caught up in some winter sport mayhem ",
+    "source": "Wallace & Gromit airs on BBC One",
+    "target": "BBC One introduces the brand new Wallace & Gromit ident"
+  },
+  {
+    "premise": "He was also followed by Donn F",
+    "source": "Donn F Eisele flew aboard Apollo 7",
+    "target": "Donn F Eisele and Walter Schirra , both having flown on Apollo 7"
+  },
+  {
+    "premise": "For instance , the Kennedy Center is the home of the Washington National Opera and the National Symphony Orchestra ",
+    "source": "National Symphony Orchestra plays at Kennedy Center",
+    "target": "the Kennedy Center is the home of the Washington National Opera and the National Symphony Orchestra"
+  },
+  {
+    "premise": "The inhabitants of the Vale of Kashmir are mostly Muslim and speak Urdu and Kashmiri ",
+    "source": "Urdu is spoken in Vale of Kashmir",
+    "target": "The inhabitants of the Vale of Kashmir are mostly Muslim and speak Urdu"
+  },
+  {
+    "premise": "Bad Company was produced by Jerry Bruckheimer and directed by Joel Schumacher ",
+    "source": "Jerry Bruckheimer produced Bad Company",
+    "target": "Bad Company was produced by Jerry Bruckheimer"
+  },
+  {
+    "premise": "In May 1805 Napoleon was crowned at Milan as King of Italy ",
+    "source": "Napoleon regned as King of Italy",
+    "target": "Napoleon was crowned at Milan as King of Italy"
+  },
+  {
+    "premise": "India 's top SUV maker Mahindra & Mahindra said its newly launched crossover Xylo is being pitted to compete against entry-level and mid-range sedans and multi-utility vehicles ( MUVs ) in India ",
+    "source": "Mahindra & Mahindra produces Xylo",
+    "target": "Mahindra & Mahindra said its newly launched crossover Xylo"
+  },
+  {
+    "premise": "But finally , he is now married to Twinkle Khanna , Daughter of Rajesh Khanna and Dimple Kapadia and sister of Rinkie Khanna ",
+    "source": "Twinkle Khanna is the child of Rajesh Khanna",
+    "target": "Twinkle Khanna , Daughter of Rajesh Khanna"
+  },
+  {
+    "premise": "Milwaukee to see the Bucks battle the Cleveland Cavaliers at the Bradley Center ",
+    "source": "Bucks plays at Bradley Center",
+    "target": "Bucks battle the Cleveland Cavaliers at the Bradley Center"
+  },
+  {
+    "premise": "Lower Granite Dam ( the uppermost dam on the lower Snake River ) has spillway deflectors on all 8 bays , although the design of those deflectors may need to be modified in the future ",
+    "source": "Lower Granite Dam is located on the Snake River",
+    "target": "Lower Granite Dam ( the uppermost dam on the lower Snake River )"
+  },
+  {
+    "premise": "Karmichael Hunt and Greg Inglis are two prime examples of players who are n't full blooded Queenslanders , but they chose to play for the Maroons ",
+    "source": "Karmichael Hunt plays for Maroons",
+    "target": "but they chose to play for the Maroons"
+  },
+  {
+    "premise": "The main tributaries of the Ganga system are the Yamuna , Bhagirathi and Alaknanda , Kali and its tributaries , the Ghagra , the Gandak and the Kosi river ",
+    "source": "Yamuna is a tributary of Ganga",
+    "target": "The main tributaries of the Ganga system are the Yamuna"
+  },
+  {
+    "premise": "Under fire for her remarks about Barack Obama and Congress , Rep",
+    "source": "Elwyn Tinklenberg ran against Michele Bachmann",
+    "target": "Michele Bachmann is effectively tied with Elwyn Tinklenberg"
+  },
+  {
+    "premise": "MILAN - Sulley Muntari 's scrappy goal gave leaders Inter Milan a deserved 1-0 win over old rivals Juventus in a lively Serie A encounter on Saturday ",
+    "source": "Inter Milan plays in the Serie A",
+    "target": "gave leaders Inter Milan a deserved 1-0 win over old rivals Juventus in a lively Serie A encounter"
+  },
+  {
+    "premise": "Corey Grant is a 10 year CFL veteran who has played with the Ti-Cats , Alouettes and , for the last 7 seasons , the Roughriders ",
+    "source": "Corey Grant played for Ti-Cats",
+    "target": "Corey Grant is a 10 year CFL veteran who has played with the Ti-Cats"
+  },
+  {
+    "premise": "Leisha Hailey is the only openly gay woman to star in sexy lesbian series The L Word ",
+    "source": "Leisha Hailey starred in The L Word",
+    "target": "Leisha Hailey is the only openly gay woman to star in sexy lesbian series The L Word"
+  },
+  {
+    "premise": "Even if you 've never read a comic book or seen any of the Sam Raimi films , you know who Spider-Man is , the iconic super hero Stan Lee and Steve Ditko created in 1962 ",
+    "source": "Stan Lee created Spider-Man",
+    "target": "you know who Spider-Man is , the iconic super hero Stan Lee and Steve Ditko created"
+  },
+  {
+    "premise": "Barcelona , SPAIN , February 12 , 2004 ( euroleague",
+    "source": "FC Barcelona plays in the Euroleague",
+    "target": "FC Barcelona needed overtime , but managed to defeat hungry Partizan Mobtel 95-91 in Group A on Thursday for its 25th straight Euroleague home win"
+  },
+  {
+    "premise": "T9 scored an invite and will be attending the NAMM ( National Association of Music Merchants ) Show in Anaheim , California on January 15/16 ",
+    "source": "NAMM is held at Anaheim",
+    "target": "NAMM ( National Association of Music Merchants ) Show in Anaheim"
+  },
+  {
+    "premise": "Dave and Frank watch a BBC television program about themselves , in which the `` sixth member '' of the crew , the HAL 9000 supercomputer ( voiced by Douglas Rain ) , is introduced and interviewed ",
+    "source": "Douglas Rain was the voice of HAL 9000",
+    "target": "the HAL 9000 supercomputer ( voiced by Douglas Rain )"
+  },
+  {
+    "premise": "Mark Richt and Houston Nutt both are arguably the SEC s two best coaches , not to mention the outstanding job Sylvester Croom is doing in Starkville ",
+    "source": "Mark Richt is in the SEC",
+    "target": "Mark Richt and Houston Nutt both are arguably the SEC s two best coaches"
+  },
+  {
+    "premise": "Over 49,000 Sherman tanks were built during World War Two -- more than all the tank production of the Third Reich for the entire war ",
+    "source": "Third Reich fought in World War Two",
+    "target": "more than all the tank production of the Third Reich for the entire war"
+  },
+  {
+    "premise": "Information collected on MSN may be combined with information obtained from other Microsoft services and other companies ",
+    "source": "MSN is provided by Microsoft",
+    "target": "Information collected on MSN may be combined with information obtained from other Microsoft services"
+  },
+  {
+    "premise": "The Dodgers are 7 games out of first place in the National League West and remain 4 games behind the San Deigo Padres in the Wild Card race ",
+    "source": "Dodgers compete in National League West",
+    "target": "The Dodgers are 7 games out of first place in the National League West"
+  },
+  {
+    "premise": "With news of SNSD 's impending comeback , `` Factory Girl '' premiered on the music and variety channel MNet on October 8th and will show its last episode on the this coming December 17th ",
+    "source": "Factory Girl aired on MNet",
+    "target": "`` Factory Girl '' premiered on the music and variety channel MNet"
+  },
+  {
+    "premise": "Ilan Papp is professor of History at Exeter University in England ",
+    "source": "Ilan Papp works for Exeter University",
+    "target": "Ilan Papp is professor of History at Exeter University"
+  },
+  {
+    "premise": "The game will use the latest version of the EGO engine , which has powered recent titles from the publisher , including Race Driver GRID ",
+    "source": "Race Driver GRID is powered by EGO",
+    "target": "EGO engine , which has powered recent titles from the publisher , including Race Driver GRID"
+  },
+  {
+    "premise": "Former contestant Corey Clark told reporters in April 2005 that he and Idol judge Paula Abdul had a `` secret affair '' prompting an internal Idol investigation ",
+    "source": "Paula Abdul was a judge on Idol",
+    "target": "Idol judge Paula Abdul"
+  },
+  {
+    "premise": "At the start of the 20th century , Germany garnered fourteen of the first thirty-one Nobel Prizes in Chemistry , starting with Hermann Emil Fischer in 1901 and until Carl Bosch and Friedrich Bergius in 1931 ",
+    "source": "Carl Bosch works in the field of Chemistry",
+    "target": "Nobel Prizes in Chemistry , starting with Hermann Emil Fischer in 1901 and until Carl Bosch"
+  },
+  {
+    "premise": "The currency in The Netherlands and the official currency of the Congress is the Euro ( $ ) ",
+    "source": "Euro is the currency of The Netherlands",
+    "target": "The currency in The Netherlands and the official currency of the Congress is the Euro"
+  },
+  {
+    "premise": "Throughout his career , Clayton has used both Precision and Jazz basses ",
+    "source": "Clayton played a Precision",
+    "target": "Clayton has used both Precision"
+  },
+  {
+    "premise": "Dr",
+    "source": "Johns Hopkins University has a campus in Baltimore",
+    "target": "at Johns Hopkins University 's Bloomberg School of Public Health in Baltimore"
+  },
+  {
+    "premise": "Your King County bus pass/employee ID / keycard allows you to ride free on all regular bus service provided by Metro Transit , Sound Transit , Pierce Transit , and Community Transit ",
+    "source": "Metro Transit provides service in King County",
+    "target": "Your King County bus pass/employee ID / keycard allows you to ride free on all regular bus service provided by Metro Transit"
+  },
+  {
+    "premise": "Eminem 's new album titled '' Relapse '' is expected to be released by the end of the year while Eminem 's memoir , '' The Way I Am , '' -LSB- buy it here -RSB- hit stores yesterday ",
+    "source": "Eminem starred in Relapse",
+    "target": "Eminem 's new album titled '' Relapse ''"
+  },
+  {
+    "premise": "The Panamanian government is democratic and the currency is the U",
+    "source": "US Dollar is the currency of Panamanian",
+    "target": "The Panamanian government is democratic and the currency is the US Dollar"
+  },
+  {
+    "premise": "The sons of Brankovic quarrelled among themselves , though his daughter Mara , the widow of the Sultan Murad , continued to have some influence over her stepson Mehmed until her death in 1487 ",
+    "source": "Sultan Murad was married to Mara",
+    "target": "though his daughter Mara , the widow of the Sultan Murad"
+  },
+  {
+    "premise": "Back in the US for the first time in 10 years , Return of the Mack hitmaker Mark Morrison has reemerged with a brand new single ",
+    "source": "Mark Morrison released Return of the Mack",
+    "target": "Return of the Mack hitmaker Mark Morrison"
+  },
+  {
+    "premise": "Speaking of The City of Ember , I just read the sequel to it , The People of Sparks ",
+    "source": "The City of Ember was followed by The People of Sparks",
+    "target": "Speaking of The City of Ember , I just read the sequel to it , The People of Sparks"
+  },
+  {
+    "premise": "The foundation from which Thompson builds is `` the Gaia hypothesis , '' formulated by atmospheric chemist James Lovelock and biologist Lynn Margulis and named after the ancient goddess of the Earth ",
+    "source": "Lynn Margulis developed Gaia",
+    "target": "`` the Gaia hypothesis , '' formulated by atmospheric chemist James Lovelock and biologist Lynn Margulis"
+  },
+  {
+    "premise": "In 2009 MotorsTV will telecast Series events on a predominately `` live '' basis in prime time throughout Europe to 31 countries in four languages ",
+    "source": "MotorsTV is available in Europe",
+    "target": "MotorsTV will telecast Series events on a predominately `` live '' basis in prime time throughout Europe"
+  },
+  {
+    "premise": "Whatever the case , Tereshkova had completed three days in space aboard Vostok 6 , more than the flight time of all the American astronauts put together ",
+    "source": "Tereshkova flew on Vostok 6",
+    "target": "Tereshkova had completed three days in space aboard Vostok 6"
+  },
+  {
+    "premise": "The game was also a homecoming for Kyle Turris , as this was his first game in his hometown of Vancouver since he was drafted by the Coyotes with the third pick in 2007 ",
+    "source": "Kyle Turris was drafted by Coyotes",
+    "target": "he was drafted by the Coyotes with the third pick"
+  },
+  {
+    "premise": "The museum displays manuscripts and memorabilia of Keats , Shelley , Byron and other 19th-century Romantics ",
+    "source": "Keats is associated with the Romantics",
+    "target": "Keats , Shelley , Byron and other 19th-century Romantics"
+  },
+  {
+    "premise": "Day 9 After breakfast we will go with our bus to Agios Nikolaos , the capital of the province Lasithi ",
+    "source": "Agios Nikolaos was a municipality in Lasithi",
+    "target": "Agios Nikolaos , the capital of the province Lasithi"
+  },
+  {
+    "premise": "Tanzania 's name signifies the union between Tanganyika and the two islands of Unguja and Pemba , which with several other smaller islands constitute Zanzibar ",
+    "source": "Unguja is part of Zanzibar",
+    "target": "the two islands of Unguja and Pemba , which with several other smaller islands constitute Zanzibar"
+  },
+  {
+    "premise": "Matt Neal has become the first man since 1987 to successfully defend his BTCC title , winning the second of the three Silverstone races ",
+    "source": "Matt Neal won the BTCC",
+    "target": "Matt Neal has become the first man since 1987 to successfully defend his BTCC title"
+  },
+  {
+    "premise": "He first appeared ( unnamed ) in the 1955 Warner Bros",
+    "source": "One Froggy Evening was released by Warner Bros ",
+    "target": "in the 1955 Warner Bros  cartoon '' One Froggy Evening"
+  },
+  {
+    "premise": "We , William the Second by the Grace of God , King of the Netherlands , ( etc",
+    "source": "William served as King of the Netherlands",
+    "target": "William the Second by the Grace of God , King of the Netherlands"
+  },
+  {
+    "premise": "KIMBA THE WHITE LION : Another old US import from the pen of Osamu Tezuka originally titled JUNGLE TAITEI ( Emperor ) ",
+    "source": "Osamu Tezuka created JUNGLE TAITEI",
+    "target": "from the pen of Osamu Tezuka originally titled JUNGLE TAITEI"
+  },
+  {
+    "premise": "Professor Michael J",
+    "source": "Michael J Piore taught at MIT",
+    "target": "Michael J Piore is currently the David W Skinner Professor of Political Economy at MIT"
+  },
+  {
+    "premise": "Mitchell could be playing overseas right now and getting a much bigger pay check than the one he is getting from the D-Fenders , but he feels as though the NBA D-League is his place to be this season ",
+    "source": "D-Fenders plays in the NBA",
+    "target": "than the one he is getting from the D-Fenders , but he feels as though the NBA D-League is his place to be"
+  },
+  {
+    "premise": "The mining provoked Operation Praying Mantis , the biggest surface-ship battle in decades ; helped end the Iran-Iraq War ; and set the stage for conflicts to come ",
+    "source": "Operation Praying Mantis was a part of Iran-Iraq War",
+    "target": "The mining provoked Operation Praying Mantis , the biggest surface-ship battle in decades ; helped end the Iran-Iraq War"
+  },
+  {
+    "premise": "Springsteen 's newest album , `` Working On A Dream , '' has received mixed reviews ",
+    "source": "Springsteen released Working On A Dream",
+    "target": "Springsteen 's newest album , `` Working On A Dream"
+  },
+  {
+    "premise": "The current editor-in-chief is Giovanni Maria Vian Giovanni Maria Vian Giovanni Maria Vian is a professor of patristic philology , journalist , and editor-in-chief of L'Osservatore Romano since 200 ",
+    "source": "Giovanni Maria Vian was the editor of L'Osservatore Romano",
+    "target": "Giovanni Maria Vian is a professor of patristic philology , journalist , and editor-in-chief of L'Osservatore Romano since 200"
+  },
+  {
+    "premise": "Unlike Freeview , for the moment anyway , Freesat also comes with in an HD variety ",
+    "source": "HD is available on Freesat",
+    "target": "Freesat also comes with in an HD variety"
+  },
+  {
+    "premise": "Warner is a pocket passer who , at age 37 , will be older than Pittsburgh 's coach ( Mike Tomlin , 36 ) in Sunday 's game ",
+    "source": "Mike Tomlin coaches Pittsburgh",
+    "target": "Pittsburgh 's coach ( Mike Tomlin , 36 )"
+  },
+  {
+    "premise": "A new Government led by the Leader of the Australian Labor Party , the Hon Kevin Rudd MP , was sworn in by the Governor-General on 3 December 2007 ",
+    "source": "Kevin Rudd was a leader of Australian Labor Party",
+    "target": "by the Leader of the Australian Labor Party , the Hon Kevin Rudd MP"
+  },
+  {
+    "premise": "STS-1 astronauts Robert Crippen ( left ) and John Young ( right ) discuss checklist items during suit-up in the Operations and Checkout Building prior to departure for the launch pad during the final countdown rehearsal before launch ",
+    "source": "John Young flew aboard STS-1",
+    "target": "STS-1 astronauts Robert Crippen ( left ) and John Young ( right )"
+  },
+  {
+    "premise": "Alberta hard rock band Nickelback leads the pack with five nominations heading into the 2009 Juno Awards , set for March 27-29 at Vancouver 's General Motors Place ",
+    "source": "2009 Juno Awards is held at Vancouver",
+    "target": "the 2009 Juno Awards , set for March 27-29 at Vancouver 's General Motors Place"
+  },
+  {
+    "premise": "The Dames Point Bridge ( also known as the Napoleon Bonaparte Broward Bridge or Dame Point Bridge ) spans the St",
+    "source": "Dames Point Bridge crosses St Johns River",
+    "target": "The Dames Point Bridge ( also known as the Napoleon Bonaparte Broward Bridge or Dame Point Bridge ) spans the St Johns River"
+  },
+  {
+    "premise": "Ecevit met party allies and Devlet Bahceli , head of his rightist Nationalist Action Party ( MHP ) coalition partner , who unleashed the drama on Monday by moving for November polls ",
+    "source": "Devlet Bahceli was a leader of MHP",
+    "target": "Devlet Bahceli , head of his rightist Nationalist Action Party ( MHP )"
+  },
+  {
+    "premise": "Alan MacDiarmid , was awarded the 2000 Nobel Prize in Chemistry with Alan J",
+    "source": "Alan MacDiarmid recieved Nobel Prize in Chemistry",
+    "target": "Alan MacDiarmid , was awarded the 2000 Nobel Prize in Chemistry"
+  },
+  {
+    "premise": "The receiver tube was very thick ( ~ 3 mm ) , compared with later World War II submachine guns with half or less of that thickness , such as the Sten or MP40 ",
+    "source": "Sten was used during World War II",
+    "target": "later World War II submachine guns with half or less of that thickness , such as the Sten or MP40"
+  },
+  {
+    "premise": "In June , Gen",
+    "source": "Hamid Gul commanded ISI",
+    "target": "Hamid Gul , the former Chief of ISI"
+  },
+  {
+    "premise": "Berry Aviation operates as the fixed base operator at the San Marcos Municipal Airport located on Highway 21 ",
+    "source": "Berry Aviation flies from San Marcos Municipal Airport",
+    "target": "Berry Aviation operates as the fixed base operator at the San Marcos Municipal Airport"
+  },
+  {
+    "premise": "East Kentucky Miners co-owner Jay Fiedler and head coach Kevin Keathley will be present to help kick off the food drive ",
+    "source": "Kevin Keathley coaches East Kentucky Miners",
+    "target": "East Kentucky Miners co-owner Jay Fiedler and head coach Kevin Keathley"
+  },
+  {
+    "premise": "Discerning filmgoers will recognize the bleached-out look of Newton Thomas Sigel 's camerawork ( Sigel shot the impressive looking Three Kings ) ",
+    "source": "Three Kings was shot by Sigel",
+    "target": "Sigel shot the impressive looking Three Kings"
+  },
+  {
+    "premise": "Gatwick Passport Office Directory is here to provide information on Passport Office in Gatwick , United Kingdom ",
+    "source": "Passport Office is an agency of United Kingdom",
+    "target": "Passport Office in Gatwick , United Kingdom"
+  },
+  {
+    "premise": "If that sounds harsh , book a flight to Hartford , Connecticut and take the Amtrak into New York 's Penn Station ",
+    "source": "Amtrak stops at Penn Station",
+    "target": "take the Amtrak into New York 's Penn Station"
+  },
+  {
+    "premise": "Follow-Up to Arabesque San Francisco based porn-powerhouse Raging Stallion Studios today announced the release of Mirage , Director Chris Ward 's two-disc follow-up to the 2006 smash hit Arabesque ",
+    "source": "Raging Stallion Studios is based in San Francisco",
+    "target": "Arabesque San Francisco based porn-powerhouse Raging Stallion Studios"
+  },
+  {
+    "premise": "Of course , Hendrix did that to his Strat , too , but he probably had ten more waiting in the wings ",
+    "source": "Hendrix played a Strat",
+    "target": "Hendrix did that to his Strat"
+  },
+  {
+    "premise": "Chico Mendes as memorialized in the central square of Acre state capital Rio Branco ",
+    "source": "Rio Branco is the capital of Acre",
+    "target": "Acre state capital Rio Branco"
+  },
+  {
+    "premise": "FluffInMyEar 12-24-2008 , 06:32 PM Speaking of the CW , The affiliate for Birmingham ( WTTO ) was once a FOX affilate ",
+    "source": "WTTO was an affiliate of FOX",
+    "target": "The affiliate for Birmingham ( WTTO ) was once a FOX affilate"
+  },
+  {
+    "premise": "Ping-bing ( who co-shot '' In The Mood For Love '' with Christopher Doyle ) , gives us slow pans that prowl around the apartments and nightclubs that Vicky and the two men inhabit ",
+    "source": "In The Mood For Love was shot by Christopher Doyle",
+    "target": "who co-shot '' In The Mood For Love '' with Christopher Doyle"
+  },
+  {
+    "premise": "Big Brown was the favorite to win the 1&1/2 mile Belmont Stakes but ended up finishing dead last with jockey Kent Desormeaux easing the 3-year-old race horse Big Brown down the stretch ",
+    "source": "Kent Desormeaux rode Big Brown",
+    "target": "Kent Desormeaux easing the 3-year-old race horse Big Brown down the stretch"
+  },
+  {
+    "premise": "NC State fans will have an opportunity to watch the Wolfpack football team as it prepares for its December 29 game against Rutgers at the Papajohns",
+    "source": "NC State is nicknamed Wolfpack",
+    "target": "NC State fans will have an opportunity to watch the Wolfpack football team"
+  },
+  {
+    "premise": "Those who allege that Albert Edward , Bertie , the Prince of Wales was a Ripper suspect , appear to be confusing him with his son Albert Victor , who was a Ripper suspect ",
+    "source": "Albert Victor is the son of Albert Edward",
+    "target": "Those who allege that Albert Edward , Bertie , the Prince of Wales was a Ripper suspect , appear to be confusing him with his son Albert Victor"
+  },
+  {
+    "premise": "President-elect Barack Obama made waves in education this week when he announced his pick of Chicago Public Schools CEO Arne Duncan to be the next Secretary of Education ",
+    "source": "Arne Duncan was appointed by Barack Obama",
+    "target": "he announced his pick of Chicago Public Schools CEO Arne Duncan"
+  },
+  {
+    "premise": "Agincourt GO Station is a GO Transit railway and bus station in Scarborough , Ontario , Canada ",
+    "source": "Agincourt GO Station is located in Scarborough",
+    "target": "Agincourt GO Station is a GO Transit railway and bus station in Scarborough"
+  },
+  {
+    "premise": "The Offspring 's front man , Dexter Holland , started Nitro Records in 1994 ",
+    "source": "Dexter Holland founded Nitro Records",
+    "target": "Dexter Holland , started Nitro Records"
+  },
+  {
+    "premise": "General Electric CEO Jeff Immelt and Google CEO Eric Schmidt made the announcement during Google 's `` Zeitgeist , '' an annual meeting of industry , media and political leaders at Google 's Mountain View headquarters ",
+    "source": "Eric Schmidt works for Google",
+    "target": "Google CEO Eric Schmidt"
+  },
+  {
+    "premise": "Koha is the first open-source Integrated Library System ( ILS ) ",
+    "source": "Koha is a ILS",
+    "target": "Koha is the first open-source Integrated Library System ( ILS )"
+  },
+  {
+    "premise": "The Brachycera : Muscomorpha are the Houseflies , Stablefies , Dungflies , Blowflies , Bots , and many other smaller flies ",
+    "source": "Muscomorpha includes Blowflies",
+    "target": "Muscomorpha are the Houseflies , Stablefies"
+  },
+  {
+    "premise": "The chapter is written by Paul Reiter , Director of the Insects and Infectious Diseases Unit of the Institut Pasteur and global consultant on insect-borne diseases ",
+    "source": "Paul Reiter works at Institut Pasteur",
+    "target": "Paul Reiter , Director of the Insects and Infectious Diseases Unit of the Institut Pasteur"
+  },
+  {
+    "premise": "Once settled in Noosa we , of course , just had to drive up the magnificant Cooloola Beach to the town of Rainbow Beach on Wide Bay from where we could catch a barge to Fraser Island ",
+    "source": "Rainbow Beach is in Wide Bay",
+    "target": "to the town of Rainbow Beach on Wide Bay"
+  },
+  {
+    "premise": "There are also some very popular Freeview entertainment channels such as Dave , UKTV History and many more ",
+    "source": "Dave is available on Freeview",
+    "target": "Freeview entertainment channels such as Dave"
+  },
+  {
+    "premise": "High School Musical 3 : Senior Year is the third movie in Disney 's hugely popular High School Musical series ",
+    "source": "High School Musical 3 : Senior Disneyear was released by Disney",
+    "target": "High School Musical 3 : Senior Year is the third movie in Disney 's hugely popular High School Musical series"
+  },
+  {
+    "premise": "Nepotism is given an unusual spin in Pratchett 's 14th Discworld novel , as Death 's granddaughter picks up the scythe when the Grim Reaper takes a vacation ",
+    "source": "Pratchett wrote Discworld",
+    "target": "Pratchett 's 14th Discworld novel"
+  },
+  {
+    "premise": "The specific stop for the LIRR is the Atlantic Terminal , the westernmost stop of the Atlantic Branch of the LIRR ",
+    "source": "LIRR stops at Atlantic Terminal",
+    "target": "The specific stop for the LIRR is the Atlantic Terminal"
+  },
+  {
+    "premise": "Built in the mid-17th century by Mughal Emperor Shah Jahan as an expression of his love for his wife Mumtaz Mahal , the Taj Mahal is truly one of the wonders of the world ",
+    "source": "Mumtaz Mahal was married to Shah Jahan",
+    "target": "by Mughal Emperor Shah Jahan as an expression of his love for his wife Mumtaz Mahal"
+  },
+  {
+    "premise": "HD 147513 is a 5th magnitude star in the constellation of Scorpius ",
+    "source": "HD 147513 is a star in Scorpius",
+    "target": "HD 147513 is a 5th magnitude star in the constellation of Scorpius"
+  },
+  {
+    "premise": "Except , of course , that Sportscenter is broadcast on ESPN , which is owned by ABC -- a company that has yet to partner with Hulu ",
+    "source": "Sportscenter aired on ESPN",
+    "target": "Sportscenter is broadcast on ESPN"
+  },
+  {
+    "premise": "In the end , the state executives fully supported the president 's Proclamation and also suggested the removal of General George B",
+    "source": "George B McClellan commanded Army of the Potomac",
+    "target": "the removal of General George B McClellan as commander of the Union 's Army of the Potomac"
+  },
+  {
+    "premise": "The 856-foot P&O Oceana cruise ship was built by Fincantieri Cantieri Navali Italiani in Italy ",
+    "source": "P&O Oceana was built at Italy",
+    "target": "The 856-foot P&O Oceana cruise ship was built by Fincantieri Cantieri Navali Italiani in Italy"
+  },
+  {
+    "premise": "Little Steven Van Zandt , a star on the show who plays mobster Silvio Dante ",
+    "source": "Silvio Dante was played by Little Steven Van Zandt",
+    "target": "Little Steven Van Zandt , a star on the show who plays mobster Silvio Dante"
+  },
+  {
+    "premise": "Facts The Panzer IV , in its many versions , was one of the most widely used German tanks of WWII ",
+    "source": "Panzer IV was used during WWII",
+    "target": "Panzer IV , in its many versions , was one of the most widely used German tanks of WWII"
+  },
+  {
+    "premise": "The phylum Gnetophyta consists of three genera , Ephedra , Gnetum , and Welwitschia ",
+    "source": "Ephedra is a genus of Gnetophyta",
+    "target": "The phylum Gnetophyta consists of three genera , Ephedra , Gnetum , and Welwitschia"
+  },
+  {
+    "premise": "USA -10467 BRONX , 716 ALLERTON AVENUE H&R Block , Taxes and Professional tax preparation services , along with do it yourself online tax preparation programs and downloadable tax preparation software ",
+    "source": "ALLERTON AVENUE is in BRONX",
+    "target": "USA -10467 BRONX , 716 ALLERTON AVENUE H&R Block"
+  },
+  {
+    "premise": "Singapore Airlines will be the exclusive A380 operator -- the first of 19 planes on order -- for 10 months until Emirates gets theirs in August 2008 -- the first of 55 , easily Airbus ' largest A380 customer ",
+    "source": "Singapore Airlines uses A380",
+    "target": "Singapore Airlines will be the exclusive A380 operator"
+  },
+  {
+    "premise": "Gene Cernan had a big hole in the back of his space suit on Gemini 9 ",
+    "source": "Gene Cernan flew on Gemini 9",
+    "target": "Gene Cernan had a big hole in the back of his space suit on Gemini 9"
+  },
+  {
+    "premise": "This is reminiscent of the Pantheon , also built by Hadrian ",
+    "source": "Pantheon was built by Hadrian",
+    "target": "the Pantheon , also built by Hadrian"
+  },
+  {
+    "premise": "It 's still interesting to see the other options Apple had explored in launching their own iPhone ",
+    "source": "Apple produces iPhone",
+    "target": "Apple had explored in launching their own iPhone"
+  },
+  {
+    "premise": "The Linux operating system , the crown jewel of open source software , is licensed under GPL version 2 , introduced in 1991 , as is the majority of open source software ",
+    "source": "Linux is licensed under GPL",
+    "target": "The Linux operating system , the crown jewel of open source software , is licensed under GPL version 2"
+  },
+  {
+    "premise": "After a quick lunch , the Deacs will head to Capitol Hill for a two-hour tour of the Capitol ",
+    "source": "Capitol is located in Capitol Hill",
+    "target": "head to Capitol Hill for a two-hour tour of the Capitol"
+  },
+  {
+    "premise": "Doug Leigh and Lee Barkell have coached Mabee in Barrie for the last five years ",
+    "source": "Mabee was coached by Lee Barkell",
+    "target": "Doug Leigh and Lee Barkell have coached Mabee"
+  },
+  {
+    "premise": "General George Washington , Commander-in-Chief of the newly-formed Continental Army , headquartered and planned the Siege of Boston here between July , 1775 and April , 1776 ",
+    "source": "George Washington commanded Continental Army",
+    "target": "General George Washington , Commander-in-Chief of the newly-formed Continental Army"
+  },
+  {
+    "premise": "The Dems have large majorities in the Senate and House and she would have happily told the GOP to go piss up a rope with no compromises whatsoever ",
+    "source": "Dems is represented in Senate",
+    "target": "The Dems have large majorities in the Senate"
+  },
+  {
+    "premise": "The FBC-1 has been deployed with the PLA Air Force ( PLAAF ) and PLA Naval Air Force ( PLANAF ) under the JH-7 designation ",
+    "source": "PLAAF uses FBC-1",
+    "target": "The FBC-1 has been deployed with the PLA Air Force ( PLAAF )"
+  },
+  {
+    "premise": "Michigan 's Demetrius Calip put in 32 points , while Purdue 's Matt Painter , Chuckie White and Oliver all made key three point plays down the stretch , propelling Purdue an 83 to 77 victory ",
+    "source": "Matt Painter played for Purdue",
+    "target": "Purdue 's Matt Painter"
+  },
+  {
+    "premise": "The bright star in the center is Zeta Orionis ( or Alnitak ) , the eastern star in Orion 's belt ",
+    "source": "Zeta Orionis is a star in Orion",
+    "target": "Zeta Orionis ( or Alnitak ) , the eastern star in Orion 's belt"
+  },
+  {
+    "premise": "MidAmerican Energy is an electricity and natural gas provider serving customers in South Dakota , Iowa , and Illinois ",
+    "source": "MidAmerican Energy operates in South Dakota",
+    "target": "MidAmerican Energy is an electricity and natural gas provider serving customers in South Dakota"
+  },
+  {
+    "premise": "Vtorch : This is a ploy to simply help Apple 's stock because the iPhone is not selling ( the way Apple imagined it ) ",
+    "source": "Apple produces iPhone",
+    "target": "help Apple 's stock because the iPhone is not selling"
+  },
+  {
+    "premise": "In 1961 , Prince Jean , son and heir of Grand Duchess Charlotte , was made his mother 's representative as head of state ; she formally abdicated in 1964 , and Prince Jean became grand duke ",
+    "source": "Grand Duchess Charlotte is the mother of Jean",
+    "target": "Prince Jean , son and heir of Grand Duchess Charlotte"
+  },
+  {
+    "premise": "Click the following link to view the cover of Charles Dickens : Four Novels ( Great Expectations ; Hard Times ; A Christmas Carol ; A Tale of Two Cities ) ",
+    "source": "Charles Dickens wrote Great Expectations",
+    "target": "the cover of Charles Dickens : Four Novels ( Great Expectations ; Hard Times ; A Christmas Carol ; A Tale of Two Cities )"
+  },
+  {
+    "premise": "The standards-based sipgate VoIP client for iPhone is an app that can be installed that allows users to make SIP VoIP calls via your WiFi connection ",
+    "source": "iPhone supports WiFi",
+    "target": "The standards-based sipgate VoIP client for iPhone is an app that can be installed that allows users to make SIP VoIP calls via your WiFi"
+  },
+  {
+    "premise": "Malta , Retinger a Vatican agent , and Duncan Sandys a son-in-law of Churchill ",
+    "source": "Duncan Sandys is related to Churchill",
+    "target": "Duncan Sandys a son-in-law of Churchill"
+  },
+  {
+    "premise": "The Sasaks are the people of Lombok , and speak Bahasa Indonesia as well as their local language ",
+    "source": "Sasaks speaks Bahasa Indonesia",
+    "target": "The Sasaks are the people of Lombok , and speak Bahasa Indonesia"
+  },
+  {
+    "premise": "Coral belongs to a group of animals called Cnidarians ",
+    "source": "Coral belongs to Cnidarians",
+    "target": "Coral belongs to a group of animals called Cnidarians"
+  },
+  {
+    "premise": "The oldest of six , Ginn , an Ocean City native , attended Rowan on a full tuition scholarship through the Miss New Jersey Education Foundation ",
+    "source": "Ginn attended Rowan",
+    "target": "The oldest of six , Ginn , an Ocean City native , attended Rowan"
+  },
+  {
+    "premise": "Freedom of the Seas is the first of three Royal Caribbean cruise ships currently scheduled to join the new Freedom-Class family of ships ",
+    "source": "Freedom of the Seas is operated by Royal Caribbean",
+    "target": "Freedom of the Seas is the first of three Royal Caribbean cruise ships"
+  },
+  {
+    "premise": "Sun Valley Serenade is a 1941 film starring Sonja Henie , John Payne , and Milton Berle ",
+    "source": "Sonja Henie starred in Sun Valley Serenade",
+    "target": "Sun Valley Serenade is a 1941 film starring Sonja Henie"
+  },
+  {
+    "premise": "Anne bore him two children , Mary and Anne ",
+    "source": "Anne is the mother of Mary",
+    "target": "Anne bore him two children , Mary and Anne"
+  },
+  {
+    "premise": "He said , and Obama repeated back to him - `` I , Barack Hussein Obama , do solemnly swear that I will execute the office of President of the United States faithfully ",
+    "source": "Barack Hussein Obama served as President of the United States",
+    "target": "I , Barack Hussein Obama , do solemnly swear that I will execute the office of President of the United States faithfully"
+  },
+  {
+    "premise": "When Leopold died and the archconservative Francis I succeeded him , Martinovics organized a plot to overthrow the Habsburgs and transform the socio-politico-economic structure ",
+    "source": "Francis I succeeded Leopold",
+    "target": "When Leopold died and the archconservative Francis I succeeded him"
+  },
+  {
+    "premise": "As a result , the Amerks fell to 17-29-0-4 and they remain dead last in the 29-team AHL with 38 points in 50 games ",
+    "source": "Amerks plays in the AHL",
+    "target": "the Amerks fell to 17-29-0-4 and they remain dead last in the 29-team AHL"
+  },
+  {
+    "premise": "Neil Young previewed his new '' Chrome Dreams II '' album last Wednesday for his record label in Burbank ",
+    "source": "Chrome Dreams II is an album by Neil Young",
+    "target": "Neil Young previewed his new '' Chrome Dreams II '' album"
+  },
+  {
+    "premise": "NASHVILLE , Tenn",
+    "source": "Democrat ran against Lamar Alexander",
+    "target": "Sen Lamar Alexander of Tennessee found support across the political spectrum to trounce Democrat"
+  }
+]

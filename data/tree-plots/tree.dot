@@ -1,0 +1,11 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="The barn burnt to the ground. \n Neutral", fillcolor="#afd7f4"] ;
+
+2 [label="Not stated if the barn burnt to the ground", fillcolor="#4ca6e8"] ;
+0 -> 2 [dir=back] ;
+3 [label="A barn has been destroyed by fire \n near Claverley in the early \n hours of this morning.", fillcolor="#3b9ee5"] ;
+2 -> 3 [dir=back] ;
+
+}

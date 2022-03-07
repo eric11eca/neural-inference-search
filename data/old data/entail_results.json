@@ -1,0 +1,2302 @@
+[
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: a woman",
+    "target": "a man , a woman , and two dogs",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ],
+      "rouge2": [
+        0.2,
+        0.16666666666666666,
+        0.1818181818181818
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ]
+    }
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: two dogs",
+    "target": "a man , a woman , and two dogs",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ],
+      "rouge2": [
+        0.2,
+        0.16666666666666666,
+        0.1818181818181818
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ]
+    }
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: A woman and two dogs",
+    "target": "a man , a woman , and two dogs",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        0.7142857142857143,
+        0.6250000000000001
+      ],
+      "rouge2": [
+        0.5,
+        0.6666666666666666,
+        0.5714285714285715
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        0.7142857142857143,
+        0.6250000000000001
+      ]
+    }
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: Two dogs",
+    "target": "a man , a woman , and two dogs",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ],
+      "rouge2": [
+        0.2,
+        0.16666666666666666,
+        0.1818181818181818
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ]
+    }
+  },
+  {
+    "premise": "a man , a woman , and two dogs are walking on the beach .",
+    "source": "Some people and two animals",
+    "prediction": "Source Phrase aligns to: A man and two dogs",
+    "target": "a man , a woman , and two dogs",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        0.7142857142857143,
+        0.6250000000000001
+      ],
+      "rouge2": [
+        0.375,
+        0.5,
+        0.42857142857142855
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        0.7142857142857143,
+        0.6250000000000001
+      ]
+    }
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down the road",
+    "target": "down the road",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ],
+      "rougeL": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ]
+    }
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down the road down",
+    "target": "down the road",
+    "scores": {
+      "rouge1": [
+        0.375,
+        1.0,
+        0.5454545454545454
+      ],
+      "rouge2": [
+        0.2857142857142857,
+        1.0,
+        0.4444444444444445
+      ],
+      "rougeL": [
+        0.375,
+        1.0,
+        0.5454545454545454
+      ]
+    }
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down",
+    "target": "down the road",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.3333333333333333,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.3333333333333333,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down down road",
+    "target": "down the road",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.6666666666666666,
+        0.4
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.6666666666666666,
+        0.4
+      ]
+    }
+  },
+  {
+    "premise": "a man with a helmet is riding a bike down the road",
+    "source": "along a roadway",
+    "prediction": "Source Phrase aligns to: down road",
+    "target": "down the road",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.4444444444444444
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.4444444444444444
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: a student broke",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        0.75,
+        0.5454545454545454
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.3333333333333333,
+        0.2222222222222222
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: breaking",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: a student broken",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.14285714285714285,
+        0.25,
+        0.18181818181818182
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: an student broke",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.3333333333333333,
+        0.2222222222222222
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broke",
+    "target": "student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.25,
+        0.22222222222222224
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.25,
+        0.22222222222222224
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: a student broke",
+    "target": "a student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        0.6,
+        0.5
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        0.5,
+        0.4
+      ],
+      "rougeL": [
+        0.42857142857142855,
+        0.6,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: breaking",
+    "target": "a student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: a student broken",
+    "target": "a student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.4,
+        0.3333333333333333
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.25,
+        0.2
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.4,
+        0.3333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: an student broke",
+    "target": "a student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.4,
+        0.3333333333333333
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.25,
+        0.2
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.4,
+        0.3333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "a student broke a screen today in class",
+    "source": "a screen was broken",
+    "prediction": "Source Phrase aligns to: broke",
+    "target": "a student broke a screen",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.2,
+        0.20000000000000004
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.2,
+        0.20000000000000004
+      ]
+    }
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: a bicycle trick",
+    "target": "man doing a bicycle trick",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        0.6,
+        0.5
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        0.5,
+        0.4
+      ],
+      "rougeL": [
+        0.42857142857142855,
+        0.6,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: a cyclist",
+    "target": "man doing a bicycle trick",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ]
+    }
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: one man is doing",
+    "target": "man doing a bicycle trick",
+    "scores": {
+      "rouge1": [
+        0.25,
+        0.4,
+        0.3076923076923077
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.25,
+        0.4,
+        0.3076923076923077
+      ]
+    }
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: doing a bicycle trick",
+    "target": "man doing a bicycle trick",
+    "scores": {
+      "rouge1": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ],
+      "rouge2": [
+        0.42857142857142855,
+        0.75,
+        0.5454545454545454
+      ],
+      "rougeL": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ]
+    }
+  },
+  {
+    "premise": "one man is doing a bicycle trick in midair",
+    "source": "a cyclist",
+    "prediction": "Source Phrase aligns to: a bicycle",
+    "target": "man doing a bicycle trick",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ],
+      "rouge2": [
+        0.2,
+        0.25,
+        0.22222222222222224
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ]
+    }
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding poles near the water",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge1": [
+        0.2222222222222222,
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2222222222222222,
+        0.6666666666666666,
+        0.3333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: holding poles near",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.6666666666666666,
+        0.4
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.6666666666666666,
+        0.4
+      ]
+    }
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: standing near the water",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: standing near",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "Two men are standing near the water and holding fishing poles",
+    "source": "holding tools used for fishing",
+    "prediction": "Source Phrase aligns to: keeping poles near the water",
+    "target": "holding fishing poles",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: vertical and white",
+    "target": "a rock which is vertical and white",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        0.42857142857142855,
+        0.42857142857142855
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rougeL": [
+        0.42857142857142855,
+        0.42857142857142855,
+        0.42857142857142855
+      ]
+    }
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: horizontal and white",
+    "target": "a rock which is vertical and white",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.2857142857142857,
+        0.2857142857142857
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.2857142857142857,
+        0.2857142857142857
+      ]
+    }
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: vertical",
+    "target": "a rock which is vertical and white",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.14285714285714285,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.14285714285714285,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: vertically and white",
+    "target": "a rock which is vertical and white",
+    "scores": {
+      "rouge1": [
+        0.42857142857142855,
+        0.42857142857142855,
+        0.42857142857142855
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rougeL": [
+        0.42857142857142855,
+        0.42857142857142855,
+        0.42857142857142855
+      ]
+    }
+  },
+  {
+    "premise": "a man with climbing equipment is hanging from a rock which is vertical and white",
+    "source": "a white, vertical rock",
+    "prediction": "Source Phrase aligns to: vertical & white",
+    "target": "a rock which is vertical and white",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.2857142857142857,
+        0.30769230769230765
+      ]
+    }
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black dress which is black",
+    "target": "a black, red, white, and pink dress",
+    "scores": {
+      "rouge1": [
+        0.3,
+        0.42857142857142855,
+        0.3529411764705882
+      ],
+      "rouge2": [
+        0.1111111111111111,
+        0.16666666666666666,
+        0.13333333333333333
+      ],
+      "rougeL": [
+        0.3,
+        0.42857142857142855,
+        0.3529411764705882
+      ]
+    }
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black which is white",
+    "target": "a black, red, white, and pink dress",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.42857142857142855,
+        0.375
+      ],
+      "rouge2": [
+        0.125,
+        0.16666666666666666,
+        0.14285714285714288
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.42857142857142855,
+        0.375
+      ]
+    }
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a dress which is black",
+    "target": "a black, red, white, and pink dress",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.42857142857142855,
+        0.375
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2222222222222222,
+        0.2857142857142857,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black dress which is white",
+    "target": "a black, red, white, and pink dress",
+    "scores": {
+      "rouge1": [
+        0.4,
+        0.5714285714285714,
+        0.47058823529411764
+      ],
+      "rouge2": [
+        0.1111111111111111,
+        0.16666666666666666,
+        0.13333333333333333
+      ],
+      "rougeL": [
+        0.3,
+        0.42857142857142855,
+        0.3529411764705882
+      ]
+    }
+  },
+  {
+    "premise": "a black, red, white, and pink dress is being worn by a woman",
+    "source": "a dress which is black, red, white, and pink",
+    "prediction": "Source Phrase aligns to: a black which is black",
+    "target": "a black, red, white, and pink dress",
+    "scores": {
+      "rouge1": [
+        0.2222222222222222,
+        0.2857142857142857,
+        0.25
+      ],
+      "rouge2": [
+        0.125,
+        0.16666666666666666,
+        0.14285714285714288
+      ],
+      "rougeL": [
+        0.2222222222222222,
+        0.2857142857142857,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple who have just got married",
+    "target": "a couple who have just got married",
+    "scores": {
+      "rouge1": [
+        0.6363636363636364,
+        1.0,
+        0.7777777777777778
+      ],
+      "rouge2": [
+        0.6,
+        1.0,
+        0.7499999999999999
+      ],
+      "rougeL": [
+        0.6363636363636364,
+        1.0,
+        0.7777777777777778
+      ]
+    }
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: the couple who have just got married",
+    "target": "a couple who have just got married",
+    "scores": {
+      "rouge1": [
+        0.5454545454545454,
+        0.8571428571428571,
+        0.6666666666666665
+      ],
+      "rouge2": [
+        0.5,
+        0.8333333333333334,
+        0.625
+      ],
+      "rougeL": [
+        0.5454545454545454,
+        0.8571428571428571,
+        0.6666666666666665
+      ]
+    }
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: a couple who just got married",
+    "target": "a couple who have just got married",
+    "scores": {
+      "rouge1": [
+        0.6,
+        0.8571428571428571,
+        0.7058823529411764
+      ],
+      "rouge2": [
+        0.4444444444444444,
+        0.6666666666666666,
+        0.5333333333333333
+      ],
+      "rougeL": [
+        0.6,
+        0.8571428571428571,
+        0.7058823529411764
+      ]
+    }
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: the couple who just got married",
+    "target": "a couple who have just got married",
+    "scores": {
+      "rouge1": [
+        0.5,
+        0.7142857142857143,
+        0.588235294117647
+      ],
+      "rouge2": [
+        0.3333333333333333,
+        0.5,
+        0.4
+      ],
+      "rougeL": [
+        0.5,
+        0.7142857142857143,
+        0.588235294117647
+      ]
+    }
+  },
+  {
+    "premise": "a couple who have just got married are walking down the isle",
+    "source": "the bride and the groom",
+    "prediction": "Source Phrase aligns to: the couple who are just got married",
+    "target": "a couple who have just got married",
+    "scores": {
+      "rouge1": [
+        0.45454545454545453,
+        0.7142857142857143,
+        0.5555555555555556
+      ],
+      "rouge2": [
+        0.3,
+        0.5,
+        0.37499999999999994
+      ],
+      "rougeL": [
+        0.45454545454545453,
+        0.7142857142857143,
+        0.5555555555555556
+      ]
+    }
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: is feeding",
+    "target": "is feeding",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ],
+      "rouge2": [
+        0.2,
+        1.0,
+        0.33333333333333337
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        1.0,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: feeding",
+    "target": "is feeding",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ]
+    }
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: feeding an animal",
+    "target": "is feeding",
+    "scores": {
+      "rouge1": [
+        0.14285714285714285,
+        0.5,
+        0.22222222222222224
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.14285714285714285,
+        0.5,
+        0.22222222222222224
+      ]
+    }
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: Feed",
+    "target": "is feeding",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ]
+    }
+  },
+  {
+    "premise": "Someone is feeding an animal",
+    "source": "is giving food to",
+    "prediction": "Source Phrase aligns to: is fed",
+    "target": "is feeding",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: tiredly",
+    "target": "pacing tiredly",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.5,
+        0.28571428571428575
+      ]
+    }
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: sleeping tiredly",
+    "target": "pacing tiredly",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: running tiredly",
+    "target": "pacing tiredly",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: working tiredly",
+    "target": "pacing tiredly",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "A lion is pacing tiredly in a pen",
+    "source": "walking slowly",
+    "prediction": "Source Phrase aligns to: sitting tiredly",
+    "target": "pacing tiredly",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.5,
+        0.25
+      ]
+    }
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: a little girl is playing",
+    "target": "a grand piano",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: a little girl",
+    "target": "a grand piano",
+    "scores": {
+      "rouge1": [
+        0.14285714285714285,
+        0.3333333333333333,
+        0.2
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.14285714285714285,
+        0.3333333333333333,
+        0.2
+      ]
+    }
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: a small girl is playing",
+    "target": "a grand piano",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: A little girl is playing",
+    "target": "a grand piano",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a little girl is playing a grand piano on stage",
+    "source": "a piano which is big",
+    "prediction": "Source Phrase aligns to: a tiny girl is playing",
+    "target": "a grand piano",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a brown and white dog",
+    "target": "a brown and white dog",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ],
+      "rouge2": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a baseball",
+    "target": "a brown and white dog",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ]
+    }
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a brown and white dogs",
+    "target": "a brown and white dog",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ],
+      "rouge2": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: a brown & white dog",
+    "target": "a brown and white dog",
+    "scores": {
+      "rouge1": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ],
+      "rouge2": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ],
+      "rougeL": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ]
+    }
+  },
+  {
+    "premise": "a brown and white dog is holding a baseball in its mouth",
+    "source": "a dog which has a brown and white coat",
+    "prediction": "Source Phrase aligns to: an a brown and white dog",
+    "target": "a brown and white dog",
+    "scores": {
+      "rouge1": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ],
+      "rouge2": [
+        0.4444444444444444,
+        1.0,
+        0.6153846153846153
+      ],
+      "rougeL": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding a bicycle",
+    "target": "is riding a bicycle in a parking lot",
+    "scores": {
+      "rouge1": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "rouge2": [
+        0.42857142857142855,
+        0.42857142857142855,
+        0.42857142857142855
+      ],
+      "rougeL": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding a bicycle in parking lot",
+    "target": "is riding a bicycle in a parking lot",
+    "scores": {
+      "rouge1": [
+        0.6363636363636364,
+        0.875,
+        0.7368421052631579
+      ],
+      "rouge2": [
+        0.5,
+        0.7142857142857143,
+        0.588235294117647
+      ],
+      "rougeL": [
+        0.6363636363636364,
+        0.875,
+        0.7368421052631579
+      ]
+    }
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding",
+    "target": "is riding a bicycle in a parking lot",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.25,
+        0.28571428571428575
+      ],
+      "rouge2": [
+        0.2,
+        0.14285714285714285,
+        0.16666666666666666
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.25,
+        0.28571428571428575
+      ]
+    }
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding a bicycle inside parking lot",
+    "target": "is riding a bicycle in a parking lot",
+    "scores": {
+      "rouge1": [
+        0.5454545454545454,
+        0.75,
+        0.631578947368421
+      ],
+      "rouge2": [
+        0.4,
+        0.5714285714285714,
+        0.47058823529411764
+      ],
+      "rougeL": [
+        0.5454545454545454,
+        0.75,
+        0.631578947368421
+      ]
+    }
+  },
+  {
+    "premise": "a woman is wearing a blue helmet and is riding a bicycle in a parking lot",
+    "source": "is not riding a bicycle on the street",
+    "prediction": "Source Phrase aligns to: is riding a bicycle in",
+    "target": "is riding a bicycle in a parking lot",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        0.625,
+        0.5882352941176471
+      ],
+      "rouge2": [
+        0.5,
+        0.5714285714285714,
+        0.5333333333333333
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        0.625,
+        0.5882352941176471
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: colorful structure",
+    "target": "the grotto with a pink interior",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: beautiful structure",
+    "target": "the grotto with a pink interior",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: vibrant structure",
+    "target": "the grotto with a pink interior",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: pink interior",
+    "target": "the grotto with a pink interior",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "rouge2": [
+        0.2,
+        0.2,
+        0.20000000000000004
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "colorful structure",
+    "prediction": "Source Phrase aligns to: colourful structure",
+    "target": "the grotto with a pink interior",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: the grotto",
+    "target": "four middle eastern children",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: a pink interior",
+    "target": "four middle eastern children",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: three girls and one boy",
+    "target": "four middle eastern children",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: a group of children",
+    "target": "four middle eastern children",
+    "scores": {
+      "rouge1": [
+        0.125,
+        0.25,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.125,
+        0.25,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "the grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy",
+    "source": "a group of kids",
+    "prediction": "Source Phrase aligns to: the grotto with",
+    "target": "four middle eastern children",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: is walking on",
+    "target": "Orange juice is being drunk",
+    "scores": {
+      "rouge1": [
+        0.14285714285714285,
+        0.2,
+        0.16666666666666666
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.14285714285714285,
+        0.2,
+        0.16666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: is walking",
+    "target": "Orange juice is being drunk",
+    "scores": {
+      "rouge1": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.16666666666666666,
+        0.2,
+        0.1818181818181818
+      ]
+    }
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: is walking on an sunny day",
+    "target": "Orange juice is being drunk",
+    "scores": {
+      "rouge1": [
+        0.1,
+        0.2,
+        0.13333333333333333
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1,
+        0.2,
+        0.13333333333333333
+      ]
+    }
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: is walking orange juice",
+    "target": "Orange juice is being drunk",
+    "scores": {
+      "rouge1": [
+        0.375,
+        0.6,
+        0.4615384615384615
+      ],
+      "rouge2": [
+        0.14285714285714285,
+        0.25,
+        0.18181818181818182
+      ],
+      "rougeL": [
+        0.25,
+        0.4,
+        0.3076923076923077
+      ]
+    }
+  },
+  {
+    "premise": "orange juice is being drunk by a man who is walking on a sunny day",
+    "source": "is drinking orange juice",
+    "prediction": "Source Phrase aligns to: walking on a sunny day",
+    "target": "Orange juice is being drunk",
+    "scores": {
+      "rouge1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: two girls with dogs",
+    "target": "two girls with dogs",
+    "scores": {
+      "rouge1": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ],
+      "rouge2": [
+        0.42857142857142855,
+        1.0,
+        0.6
+      ],
+      "rougeL": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: two dogs with dogs",
+    "target": "two girls with dogs",
+    "scores": {
+      "rouge1": [
+        0.375,
+        0.75,
+        0.5
+      ],
+      "rouge2": [
+        0.14285714285714285,
+        0.3333333333333333,
+        0.2
+      ],
+      "rougeL": [
+        0.375,
+        0.75,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: two daughters with dogs",
+    "target": "two girls with dogs",
+    "scores": {
+      "rouge1": [
+        0.375,
+        0.75,
+        0.5
+      ],
+      "rouge2": [
+        0.14285714285714285,
+        0.3333333333333333,
+        0.2
+      ],
+      "rougeL": [
+        0.375,
+        0.75,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: dogs with dogs",
+    "target": "two girls with dogs",
+    "scores": {
+      "rouge1": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ],
+      "rouge2": [
+        0.16666666666666666,
+        0.3333333333333333,
+        0.2222222222222222
+      ],
+      "rougeL": [
+        0.2857142857142857,
+        0.5,
+        0.36363636363636365
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "two dogs and two people",
+    "prediction": "Source Phrase aligns to: four girls with dogs",
+    "target": "two girls with dogs",
+    "scores": {
+      "rouge1": [
+        0.375,
+        0.75,
+        0.5
+      ],
+      "rouge2": [
+        0.2857142857142857,
+        0.6666666666666666,
+        0.4
+      ],
+      "rougeL": [
+        0.375,
+        0.75,
+        0.5
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking on a forest path",
+    "target": "walking on a forest path",
+    "scores": {
+      "rouge1": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ],
+      "rouge2": [
+        0.5,
+        1.0,
+        0.6666666666666666
+      ],
+      "rougeL": [
+        0.5555555555555556,
+        1.0,
+        0.7142857142857143
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking",
+    "target": "walking on a forest path",
+    "scores": {
+      "rouge1": [
+        0.2,
+        0.2,
+        0.20000000000000004
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.2,
+        0.2,
+        0.20000000000000004
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking on a forest",
+    "target": "walking on a forest path",
+    "scores": {
+      "rouge1": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ],
+      "rouge2": [
+        0.42857142857142855,
+        0.75,
+        0.5454545454545454
+      ],
+      "rougeL": [
+        0.5,
+        0.8,
+        0.6153846153846154
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking on",
+    "target": "walking on a forest path",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ],
+      "rouge2": [
+        0.2,
+        0.25,
+        0.22222222222222224
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ]
+    }
+  },
+  {
+    "premise": "two girls with dogs are walking on a forest path",
+    "source": "walking in the woods",
+    "prediction": "Source Phrase aligns to: walking in a forest path",
+    "target": "walking on a forest path",
+    "scores": {
+      "rouge1": [
+        0.4444444444444444,
+        0.8,
+        0.5714285714285714
+      ],
+      "rouge2": [
+        0.25,
+        0.5,
+        0.3333333333333333
+      ],
+      "rougeL": [
+        0.4444444444444444,
+        0.8,
+        0.5714285714285714
+      ]
+    }
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: a person",
+    "target": "a person playing a guitar",
+    "scores": {
+      "rouge1": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ],
+      "rouge2": [
+        0.2,
+        0.25,
+        0.22222222222222224
+      ],
+      "rougeL": [
+        0.3333333333333333,
+        0.4,
+        0.3636363636363636
+      ]
+    }
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: an person with blonde hair",
+    "target": "a person playing a guitar",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.2,
+        0.14285714285714285
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.2,
+        0.14285714285714285
+      ]
+    }
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: A person with blonde hair",
+    "target": "a person playing a guitar",
+    "scores": {
+      "rouge1": [
+        0.2222222222222222,
+        0.4,
+        0.2857142857142857
+      ],
+      "rouge2": [
+        0.125,
+        0.25,
+        0.16666666666666666
+      ],
+      "rougeL": [
+        0.2222222222222222,
+        0.4,
+        0.2857142857142857
+      ]
+    }
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: a person with blonde",
+    "target": "a person playing a guitar",
+    "scores": {
+      "rouge1": [
+        0.25,
+        0.4,
+        0.3076923076923077
+      ],
+      "rouge2": [
+        0.14285714285714285,
+        0.25,
+        0.18181818181818182
+      ],
+      "rougeL": [
+        0.25,
+        0.4,
+        0.3076923076923077
+      ]
+    }
+  },
+  {
+    "premise": "a person with blonde hair is playing a guitar",
+    "source": "a guitarist ",
+    "prediction": "Source Phrase aligns to: the person with blonde hair",
+    "target": "a person playing a guitar",
+    "scores": {
+      "rouge1": [
+        0.1111111111111111,
+        0.2,
+        0.14285714285714285
+      ],
+      "rouge2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rougeL": [
+        0.1111111111111111,
+        0.2,
+        0.14285714285714285
+      ]
+    }
+  }
+]
