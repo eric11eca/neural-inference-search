@@ -13,7 +13,7 @@ from torch.utils.data import (
 
 class QADataset(Dataset):
     def __init__(self, inputs_tokenized, outputs_tokenized):
-        
+
         self.inputs_tokenized = inputs_tokenized
         self.outputs_tokenized = outputs_tokenized
 
@@ -40,7 +40,7 @@ class QADataset(Dataset):
 
 
 class MultiTaskDataLoader(DataLoader):
-    def __init__(self, dataset, is_training, 
+    def __init__(self, dataset, is_training,
                  train_batch_size, val_batch_size):
         if is_training:
             sampler = RandomSampler(dataset)
@@ -54,8 +54,8 @@ class MultiTaskDataLoader(DataLoader):
 
 class MultiTaskDataset:
     def __init__(
-        self, logger, data_path, tasks, data_split, 
-        max_len_input, max_len_output, 
+        self, logger, data_path, tasks, data_split,
+        max_len_input, max_len_output,
         train_batch_size, val_batch_size, is_training
     ):
         self.data_path = data_path
@@ -63,7 +63,7 @@ class MultiTaskDataset:
 
         for task in sorted(tasks):
             task_dir = os.path.join(self.data_path, task)
-            
+
             prefixes = ["nli", "evid"]
 
             for prefix in prefixes:
@@ -155,16 +155,16 @@ class MultiTaskDataset:
             self.logger.info("Tokenizing data points ...")
             for prompt, output in zip(inputs, outputs):
                 tokenized_inputs = self.tokenizer.batch_encode_plus(
-                    [prompt], 
-                    max_length=self.max_len_input, 
-                    pad_to_max_length=True, 
+                    [prompt],
+                    max_length=self.max_len_input,
+                    pad_to_max_length=True,
                     return_tensors="pt"
                 )
 
                 tokenized_targets = self.tokenizer.batch_encode_plus(
-                    [output], 
-                    max_length=self.max_len_output, 
-                    pad_to_max_length=True, 
+                    [output],
+                    max_length=self.max_len_output,
+                    pad_to_max_length=True,
                     return_tensors="pt"
                 )
 
