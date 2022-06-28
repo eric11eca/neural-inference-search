@@ -51,9 +51,44 @@ def compute_f1(prediction, truth):
 def compute_rouge(prediction, truth):
     scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
     rouge_scores = scorer.score(truth, prediction)
-    return rouge_scores
+    return rouge_scores['rougeL'][1]
 
 
 def compute_bleu_score(prediction, truth):
     bleu_score = sentence_bleu([truth], prediction, weights=(0, 0, 0, 1))
     return bleu_score
+
+metrics = {
+    "F1": compute_f1,
+    "EM": compute_exact_match,
+    "BLEU-4": compute_bleu_score,
+    "ROUGEL": compute_rouge,
+}
+
+def compute_metric_score_batch(outputs, target, metric="F1"):
+    metric_score_max = 0
+    
+    for pred in outputs:
+        metric_score = metrics[metric](pred, target[0])
+        metric_score_max = max(metric_score_max, metric_score)
+    return metric_score_max
+
+
+def compute_batched_metrics(outputs, targets):
+    metrics_scores = {
+        "F1": [],
+        "EM": [],
+        "BLEU-4": [],
+        "ROUGEL": [],
+    }
+    
+    for preds, target in zip(outputs[0], targets[0]):
+        for metric in metrics_scores:
+            metrics_scores[metric].append(
+                compute_metric_score_batch(preds, target, metric=metric))
+
+    metrics_scores_avg = {}
+    for metric in metrics_scores:
+        metrics_scores_avg[metric] = sum(metrics_scores[metric]) / len(outputs)
+    
+    return metrics_scores_avg
